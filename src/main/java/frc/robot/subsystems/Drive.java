@@ -37,6 +37,7 @@ import frc.lib.util.TelemetryUtil;
 import frc.lib.util.Util;
 import frc.lib.util.TelemetryUtil.PrintStyle;
 import frc.robot.Constants;
+import frc.robot.MusicPlayer;
 import frc.robot.Ports;
 import frc.robot.loops.ILooper;
 import frc.robot.loops.Loop;
@@ -86,6 +87,8 @@ public class Drive extends Subsystem {
     // control states
     private DriveControlState mDriveControlState;
 
+    public static MusicPlayer mMusicPlayer;
+
     /**
      * sets the motor's inversion, open loop ramp, closed loop ramp, voltage comp
      * sat, and current limits
@@ -94,6 +97,10 @@ public class Drive extends Subsystem {
      * @param inversion inverted state
      */
     private synchronized void configureMotorForDrive(LazyTalonFX falcon, InvertType inversion) {
+        if(mMusicPlayer == null)
+            mMusicPlayer = new MusicPlayer();
+            
+        mMusicPlayer.add(falcon);
         falcon.setInverted(inversion);
 
         PheonixUtil.checkError(falcon.configVoltageCompSaturation(12.0, Constants.kTimeOutMs),
@@ -106,7 +113,6 @@ public class Drive extends Subsystem {
 
         PheonixUtil.checkError(falcon.configSupplyCurrentLimit(new SupplyCurrentLimitConfiguration(true, 60, 60, 0)),
                 falcon.getName() + " failed to set input current limit", true);
-
     }
 
     /**

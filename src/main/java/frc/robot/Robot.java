@@ -23,6 +23,7 @@ import frc.lib.util.DriveSignal;
 import frc.lib.util.TelemetryUtil;
 import frc.lib.util.Util;
 import frc.lib.util.TelemetryUtil.PrintStyle;
+import frc.robot.MusicPlayer.Song;
 import frc.robot.auto.AutoModeExecutor;
 import frc.robot.auto.modes.AutoModeBase;
 import frc.robot.auto.modes.CrossLine;
@@ -111,7 +112,9 @@ public class Robot extends TimedRobot {
       
       mPathGenerator.generatePaths();
       mAutoModeSelector.updateModeCreator();
-      
+
+      Drive.mMusicPlayer.play(Song.CANDYLAND);
+
     } catch (Throwable t) {
       CrashTracker.logThrowableCrash(t);
       throw t;
@@ -252,8 +255,6 @@ public class Robot extends TimedRobot {
       mDriveController.update();
       mOperatorController.update();
       mOverridesController.update();
-
-
       
       driverControl();
 
