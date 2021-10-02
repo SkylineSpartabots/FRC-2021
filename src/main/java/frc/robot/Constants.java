@@ -49,8 +49,9 @@ public class Constants {
 	public static final double kShooterStartOnTargetRpm = 200;
 	public static final double kShooterStopOnTargetRpm = 150;
 	public static final int kShooterMinOnTargetSamples = 20;
-	public static final double kRawVelocityToRpm = 1195.0/600.0;
+	public static double kRawVelocityToRpm = (1195.0/600.0);// * 1.8;
 	public static final int kFarShootDistanceThreshold = 180;
+	public static final int kShootThreshold = 5100;
 
 	// Limelight
 	public static final double kLensHeight = 25.75;

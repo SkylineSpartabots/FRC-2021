@@ -258,8 +258,12 @@ public class Superstructure extends Subsystem {
 
     public void autoShootBalls(int balls) {
         RequestList state = new RequestList(Arrays.asList( 
-            mDrive.alignToTargetRequest(), mShooter.setVelocityFromVisionRequest(), mIntake.stateRequest(IntakeControlState.SCORING), mHopper.stateRequest(HopperControlState.OFF)), true);
-        RequestList queue = new RequestList(Arrays.asList(mDrive.openLoopRequest(new DriveSignal(0, 0)), mHopper.indexBallNumberRequest(balls)), false);
+            mDrive.alignToTargetRequest(), 
+            mShooter.setVelocityFromVisionRequest()
+            , mIntake.stateRequest(IntakeControlState.SCORING), mHopper.stateRequest(HopperControlState.OFF)), true);
+        RequestList queue = new RequestList(Arrays.asList(
+            mDrive.openLoopRequest(new DriveSignal(0, 0)), 
+        mHopper.indexBallNumberRequest(balls)), false);
         request(state);
         replaceQueue(queue);
     }
@@ -267,7 +271,10 @@ public class Superstructure extends Subsystem {
 
     public void autoShootBalls(int balls, int rpm, double waitTime) {
         RequestList state = new RequestList(Arrays.asList( 
-            mDrive.alignToTargetRequest(), mShooter.setVelocityAndWaitRequest(rpm), mIntake.stateRequest(IntakeControlState.SCORING), mHopper.stateRequest(HopperControlState.OFF)), true);
+            //mDrive.alignToTargetRequest(), 
+            mShooter.setVelocityAndWaitRequest(rpm), 
+            mIntake.stateRequest(IntakeControlState.SCORING), 
+            mHopper.stateRequest(HopperControlState.OFF)), true);
         RequestList queue = new RequestList(Arrays.asList(waitRequest(waitTime), mHopper.indexBallNumberRequest(balls)), false);
         request(state);
         replaceQueue(queue);

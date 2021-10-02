@@ -37,7 +37,7 @@ public class TrenchRun extends AutoModeBase {
         mShooter.setOpenLoop(0.0);
         mDrive.setOpenLoop(new DriveSignal(0, 0));
 
-        mSuperstructure.autoShootBalls(3, 4850, 0);
+        mSuperstructure.autoShootBalls(3, (int)(4850 * 2.2), 0);
         runAction(new WaitForRequestsAction());
         runAction(new WaitAction(0.2));
 
@@ -46,9 +46,9 @@ public class TrenchRun extends AutoModeBase {
         mIntake.conformToState(IntakeControlState.INTAKE);
 
         runAction(new PerfectlyStraightDriveAction(Rotation2d.fromDegrees(-64.0), 1.12, 0.4));
-        runAction(new PerfectlyStraightDriveAction(Rotation2d.fromDegrees(0.0), 4.05, 0.45));
-        runAction(new PerfectlyStraightDriveAction(Rotation2d.fromDegrees(0.0), 0.85, 0.4));
-
+        runAction(new PerfectlyStraightDriveAction(Rotation2d.fromDegrees(0.0), 4.05, 0.25));
+        runAction(new PerfectlyStraightDriveAction(Rotation2d.fromDegrees(0.0), 0.85, 0.2));
+/*
         mShooter.shootAtSetRpm(4750);
 
         runAction(new PerfectlyStraightDriveAction(Rotation2d.fromDegrees(0.0), 0.85, -0.6));
@@ -63,6 +63,6 @@ public class TrenchRun extends AutoModeBase {
         mHopper.conformToState(HopperControlState.OFF);
         mIntake.conformToState(IntakeControlState.IDLE_WHILE_DEPLOYED);
         mShooter.setOpenLoop(0.0);
-
+*/
     }
 }

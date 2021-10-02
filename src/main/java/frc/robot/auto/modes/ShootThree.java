@@ -35,7 +35,8 @@ public class ShootThree extends AutoModeBase {
         Shooter.getInstance().setOpenLoop(0.0);
         
         if(mStartPosition == StartingPosition.TARGET_SIDE) {
-            Superstructure.getInstance().autoShootBalls(3);
+            //runAction(new DriveOpenLoopAction(0.5, 0.5, 0.5));
+            Superstructure.getInstance().autoShootBalls(3, (int)(4850 * 2.2), 3);
             runAction(new WaitForRequestsAction());
             runAction(new WaitAction(0.2));
             Hopper.getInstance().conformToState(HopperControlState.OFF);

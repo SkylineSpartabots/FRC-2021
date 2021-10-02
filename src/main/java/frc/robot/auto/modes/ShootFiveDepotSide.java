@@ -35,6 +35,9 @@ public class ShootFiveDepotSide extends AutoModeBase {
     
     @Override
     protected void routine() throws AutoModeEndedException {
+        runAction(new PerfectlyStraightDriveAction(Rotation2d.fromDegrees(0.0), 1.8, 0.85));
+        mShooter.shootAtSetRpm(4700);
+        
         mShooter.setOpenLoop(0.2);
         mDrive.setOpenLoop(new DriveSignal(0, 0));
 

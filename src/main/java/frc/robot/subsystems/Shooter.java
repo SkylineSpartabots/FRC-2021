@@ -202,10 +202,10 @@ public class Shooter extends Subsystem {
                     if(mIsReadingFromVision) {
                         if(!mHasReadFromVision) {
                             if(mLimelight.seesTarget()) {
-                                setHoldWhenReady(getRpmFromDistance(mLimelight.getDistance()));
+                                setHoldWhenReady(/*YO*/(mLimelight.getDistance()));
                                 mHasReadFromVision = true;
                             } else {
-                                setHoldWhenReady(Constants.kStandardShootVelocity); //TODO: Change back
+                                setHoldWhenReady(Constants.kStandardShootVelocity /* 1.8*/); //TODO: Change back
                             }
                         }
                     }
@@ -290,7 +290,7 @@ public class Shooter extends Subsystem {
         if(mControlState != ShooterControlState.SPIN_UP) {
             configForSpinUp();
         }
-        mPeriodicIO.setpoint_rpm = setpointRpm * Constants.kRawVelocityToRpm;
+        mPeriodicIO.setpoint_rpm = setpointRpm;// * Constants.kRawVelocityToRpm;
     }
 
     /**
@@ -301,7 +301,7 @@ public class Shooter extends Subsystem {
         if(mControlState == ShooterControlState.SPIN_UP || mControlState == ShooterControlState.OPEN_LOOP) {
             configForHoldWhenReady();
         }
-        mPeriodicIO.setpoint_rpm = setpointRpm * Constants.kRawVelocityToRpm;
+        mPeriodicIO.setpoint_rpm = setpointRpm; //* Constants.kRawVelocityToRpm;
     }
 
     /**
@@ -370,10 +370,11 @@ public class Shooter extends Subsystem {
             mMasterShooter.set(ControlMode.Velocity, mPeriodicIO.setpoint_rpm);
             resetHold();
         } else if(mControlState == ShooterControlState.HOLD_WHEN_READY) {
-            final double abs_error = Math.abs(mPeriodicIO.velocity_in_ticks_per_100ms - mPeriodicIO.setpoint_rpm);
-            final boolean on_target_now = mOnTarget ? abs_error < Constants.kShooterStopOnTargetRpm :
-                abs_error < Constants.kShooterStartOnTargetRpm;
+            //final double abs_error = Math.abs(mPeriodicIO.velocity_in_ticks_per_100ms - mPeriodicIO.setpoint_rpm);
+            //final boolean on_target_now = mOnTarget ? abs_error < Constants.kShooterStopOnTargetRpm :
+                //abs_error < Constants.kShooterStartOnTargetRpm;
             
+            final boolean on_target_now = mPeriodicIO.velocity_in_ticks_per_100ms > Constants.kShootThreshold;
             if(on_target_now && !mOnTarget) {
                 mOnTargetStartTime = timestamp;
                 mOnTarget = true;
@@ -475,7 +476,8 @@ public class Shooter extends Subsystem {
             
             @Override
             public void act() {
-                shootUsingVision();
+                //shootUsingVision();
+                shootAtSetRpm(4700);
             }
 
             @Override

@@ -23,6 +23,7 @@ import frc.lib.util.DriveSignal;
 import frc.lib.util.TelemetryUtil;
 import frc.lib.util.Util;
 import frc.lib.util.TelemetryUtil.PrintStyle;
+import frc.robot.MusicPlayer.Song;
 import frc.robot.auto.AutoModeExecutor;
 import frc.robot.auto.modes.AutoModeBase;
 import frc.robot.auto.modes.CrossLine;
@@ -44,7 +45,7 @@ import frc.robot.subsystems.Hopper.HopperControlState;
 import frc.robot.subsystems.Intake.IntakeControlState;
 import frc.robot.subsystems.Limelight.LedMode;
 
-//hi
+
 public class Robot extends TimedRobot {
 
   //Loopers
@@ -79,7 +80,7 @@ public class Robot extends TimedRobot {
   
   private AutoModeSelector mAutoModeSelector = new AutoModeSelector();
   private AutoModeExecutor mAutoModeExecutor;
-
+  private boolean manualDoubleVelocity = false;
 
 
   Robot() {
@@ -111,7 +112,9 @@ public class Robot extends TimedRobot {
       
       mPathGenerator.generatePaths();
       mAutoModeSelector.updateModeCreator();
-      
+
+      //Drive.mMusicPlayer.play(Song.CANDYLAND);
+
     } catch (Throwable t) {
       CrashTracker.logThrowableCrash(t);
       throw t;
@@ -252,13 +255,11 @@ public class Robot extends TimedRobot {
       mDriveController.update();
       mOperatorController.update();
       mOverridesController.update();
-
-
       
-      //driverControl();
+      driverControl();
 
-      SmartDashboard.putNumber("Shooter Calibration Target RPM", 5700);
-      shooterCalibration();
+      SmartDashboard.putNumber("Shooter Calibration Target RPM", 4700);
+      //shooterCalibration();
     
     } catch (Throwable t) {
       CrashTracker.logThrowableCrash(t);
@@ -399,6 +400,17 @@ public class Robot extends TimedRobot {
     if(mDriveController.aButton.isBeingPressed()) {
       mShooter.setControllerConstants();
     }
+    if(mDriveController.xButton.wasActivated()){
+      //GOD SAVE US
+      if(manualDoubleVelocity){
+        //Constants.kRawVelocityToRpm *= 1.8;
+        manualDoubleVelocity = false;
+      }
+      else{
+        //Constants.kRawVelocityToRpm /= 1.8;
+        manualDoubleVelocity = true;
+      }
+    }
     
 
     /* Hopper Control:
@@ -427,7 +439,7 @@ public class Robot extends TimedRobot {
 
     
 
-    if(Timer.getFPGATimestamp() - mMatchStartTimestamp > 95) {
+    if(Timer.getFPGATimestamp() - mMatchStartTimestamp >= 0) {
       if(mOperatorController.dpadUp.isBeingPressed()) {
         shooterClimbShutoff = true;
         mClimb.conformToState(ClimbControlState.RAISE_HOOK);
