@@ -32,3 +32,5 @@ public abstract class Subsystem {
 
     public boolean hasEmergency = false;
 }
+
+// literally just testing to see if my git works well. also, HashMap<Integer, Object> vars = new HashMap<Integer, Object>();
