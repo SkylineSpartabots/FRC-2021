@@ -30,6 +30,8 @@ public abstract class Subsystem {
 
     public abstract void outputTelemetry();
 
+    public static HashMap<String, Object> outputTelemetry = new HashMap<String, Object>();
+
     public boolean hasEmergency = false;
 }
 
