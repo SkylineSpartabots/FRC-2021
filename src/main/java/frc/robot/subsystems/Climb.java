@@ -88,7 +88,7 @@ public class Climb extends Subsystem {
         PheonixUtil.checkError(falcon.configVoltageCompSaturation(12.0, Constants.kTimeOutMs), 
              falcon.getName() + " failed tp set voltage compensation", true);
 
-        outputTelemetry.put("configVoltageCompSaturation", (falcon.configVoltageCompSaturation(12.0, Constants.kTimeOutMs));
+        outputTelemetry.put("configVoltageCompSaturation", (falcon.configVoltageCompSaturation(12.0, Constants.kTimeOutMs)));
         mHookSlideMotor.enableVoltageCompensation(true);
 
         falcon.setNeutralMode(NeutralMode.Coast);
