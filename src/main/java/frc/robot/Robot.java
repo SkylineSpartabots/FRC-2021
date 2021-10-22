@@ -108,6 +108,7 @@ public class Robot extends TimedRobot {
 
       mSubsystemManager.zeroSensors();
 
+      mSubsystemManager.subsystemInitTelemetry();
       
       mPathGenerator.generatePaths();
       mAutoModeSelector.updateModeCreator();

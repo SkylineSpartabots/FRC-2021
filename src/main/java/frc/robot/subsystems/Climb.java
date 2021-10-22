@@ -217,7 +217,28 @@ public class Climb extends Subsystem {
     }
 
     @Override
-    public void outputTelemetry() {
-    
+    public void updateTelemetry() {
+        this.outputTelemetry.put("Random Number", 4);
     }
+
+    @Override
+    public void initTelemetry() {
+        this.buttons.put("Stop", new Button() {
+            @Override
+            public boolean canAct() {
+                return true;
+            }
+
+            @Override
+            public void successAction() {
+                stop();
+            }
+
+            @Override
+            public void failAction() {
+                System.out.println("This shouldn't happen");
+            }
+        });
+    }
+
 }

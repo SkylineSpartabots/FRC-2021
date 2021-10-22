@@ -7,6 +7,8 @@
 
 package frc.robot.subsystems;
 import java.util.HashMap;
+
+import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 import frc.robot.loops.ILooper;
 
 /**
@@ -28,9 +30,24 @@ public abstract class Subsystem {
 
     public abstract boolean checkSystem();
 
-    public abstract void outputTelemetry();
+    // where subsystems update telemetry, gets updated in outputTelemetry
+    public abstract void updateTelemetry();
 
-    public HashMap<String, Object> outputTelemetry = new HashMap<String, Object>();
+    public final void outputTelemetry() {
+        updateTelemetry();
+        try {
+            Dashboard.parse(outputTelemetry, buttons);
+        } catch (Exception e) {
+            throw new RuntimeException("Error while parsing telemetry", e);
+        }
+    }
+
+    // add buttons here
+    public abstract void initTelemetry();
+
+    public HashMap<String, Object> outputTelemetry = new HashMap<>();
+
+    public HashMap<String, Button> buttons = new HashMap<>();
 
     public boolean hasEmergency = false;
 }

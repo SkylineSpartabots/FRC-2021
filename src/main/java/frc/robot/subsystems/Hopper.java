@@ -304,7 +304,20 @@ public class Hopper extends Subsystem {
     }
 
     @Override
-    public void outputTelemetry() {
+    public void updateTelemetry() {
+        outputTelemetry.put("Index Supply Current", mIndexMotor.getSupplyCurrent());
+        outputTelemetry.put("Index Stator Current", mIndexMotor.getStatorCurrent());
+        outputTelemetry.put("Index Output", mIndexMotor.getLastSet());
+        outputTelemetry.put("Left Belt Supply Current", mLeftBelt.getSupplyCurrent());
+        outputTelemetry.put("Left Belt Stator Current", mLeftBelt.getStatorCurrent());
+        outputTelemetry.put("Left Belt Output", mLeftBelt.getLastSet());
+        outputTelemetry.put("Right Belt Supply Current", mRightBelt.getSupplyCurrent());
+        outputTelemetry.put("Right Belt Stator Current", mRightBelt.getStatorCurrent());
+        outputTelemetry.put("Right Belt Output", mRightBelt.getLastSet());
+    }
+
+    // cannot override outPutTelemetry
+    public void doNotOutputTelemetry() {
         if (debug) {
             /*
              * SmartDashboard.putString("Hopper State", mCurrentState.toString());
@@ -328,16 +341,28 @@ public class Hopper extends Subsystem {
              * mRightBelt.getLastSet());
              */
 
-            outputTelemetry.put("Index Supply Current", mIndexMotor.getSupplyCurrent());
-            outputTelemetry.put("Index Stator Current", mIndexMotor.getStatorCurrent());
-            outputTelemetry.put("Index Output", mIndexMotor.getLastSet());
-            outputTelemetry.put("Left Belt Supply Current", mLeftBelt.getSupplyCurrent());
-            outputTelemetry.put("Left Belt Stator Current", mLeftBelt.getStatorCurrent());
-            outputTelemetry.put("Left Belt Output", mLeftBelt.getLastSet());
-            outputTelemetry.put("Right Belt Supply Current", mRightBelt.getSupplyCurrent());
-            outputTelemetry.put("Right Belt Stator Current", mRightBelt.getStatorCurrent());
-            outputTelemetry.put("Right Belt Output", mRightBelt.getLastSet());
+
 
         }
+    }
+
+    @Override
+    public void initTelemetry() {
+        this.buttons.put("Stop", new Button() {
+            @Override
+            public boolean canAct() {
+                return true;
+            }
+
+            @Override
+            public void successAction() {
+                stop();
+            }
+
+            @Override
+            public void failAction() {
+                System.out.println("Shouldn't happen");
+            }
+        });
     }
 }

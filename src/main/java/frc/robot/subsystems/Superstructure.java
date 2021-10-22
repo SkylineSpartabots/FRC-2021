@@ -357,11 +357,17 @@ public class Superstructure extends Subsystem {
     }
 
     @Override
-    public void outputTelemetry() {
-
+    public void updateTelemetry() {
+        // do not update anything for superstructure
     }
 
-	public boolean isAtDesiredState() {
+
+    @Override
+    public void initTelemetry() {
+        // do not add any buttons for init telemetrty
+    }
+
+    public boolean isAtDesiredState() {
 		return true;
 	}
 

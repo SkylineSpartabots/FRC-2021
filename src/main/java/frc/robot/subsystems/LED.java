@@ -140,7 +140,32 @@ public class LED extends Subsystem {
     }
 
     @Override
-    public void outputTelemetry() {
+    public void updateTelemetry() {
+        this.outputTelemetry.put("Current RGB Values", mDesiredLEDState.red + ", " + mDesiredLEDState.green + ", "
+                + mDesiredLEDState.blue);
+    }
+
+    @Override
+    public void initTelemetry() {
+        this.buttons.put("Stop", new Button() {
+            @Override
+            public boolean canAct() {
+                return true;
+            }
+
+            @Override
+            public void successAction() {
+                stop();
+            }
+
+            @Override
+            public void failAction() {
+                System.out.println("Shouldn't Happen");
+            }
+        });
+    }
+
+    public void doNotOutputTelemetry() {
         TelemetryUtil.print("Current RGB Values: " + mDesiredLEDState.red + ", " + mDesiredLEDState.green + ", "
                 + mDesiredLEDState.blue, PrintStyle.INFO, true);
     }

@@ -524,9 +524,30 @@ public class Shooter extends Subsystem {
         return check;
     }
 
-
     @Override
-    public void outputTelemetry() {
+    public void updateTelemetry() {
+        outputTelemetry.put("Ready to Fire?", isOnTarget());
+        outputTelemetry.put("Shooter Velocity RPM", getCurrentRpm());
+
+        if(debug) {
+            outputTelemetry.put("Shooter state", mControlState.toString());
+
+            outputTelemetry.put("Shooter Velocity", mPeriodicIO.velocity_in_ticks_per_100ms);
+            outputTelemetry.put("Shooter Setpoint RPM", mPeriodicIO.setpoint_rpm);
+
+            outputTelemetry.put("Left Shooter Stator Current", mMasterShooter.getStatorCurrent());
+            outputTelemetry.put("Left Shooter Supply Current", mMasterShooter.getSupplyCurrent());
+            outputTelemetry.put("Left Shooter Voltage", mMasterShooter.getBusVoltage() * mMasterShooter.getMotorOutputPercent());
+
+            outputTelemetry.put("Right Shooter Stator Current", mSlaveShooter.getStatorCurrent());
+            outputTelemetry.put("Right Shooter Supply Current", mSlaveShooter.getSupplyCurrent());
+            outputTelemetry.put("Right Shooter Voltage", mSlaveShooter.getBusVoltage() * mSlaveShooter.getMotorOutputPercent());
+        }
+    }
+
+
+
+    public void doNotCallThis() {
         SmartDashboard.putBoolean("Ready to Fire?", isOnTarget());
         SmartDashboard.putNumber("Shooter Velocity RPM", getCurrentRpm());
 
@@ -544,5 +565,25 @@ public class Shooter extends Subsystem {
             SmartDashboard.putNumber("Right Shooter Supply Current", mSlaveShooter.getSupplyCurrent());
             SmartDashboard.putNumber("Right Shooter Voltage", mSlaveShooter.getBusVoltage() * mSlaveShooter.getMotorOutputPercent());
         }
+    }
+
+    @Override
+    public void initTelemetry() {
+        this.buttons.put("Stop", new Button() {
+            @Override
+            public boolean canAct() {
+                return true;
+            }
+
+            @Override
+            public void successAction() {
+                stop();
+            }
+
+            @Override
+            public void failAction() {
+                System.out.println("Shouldn't Happen");
+            }
+        });
     }
 }

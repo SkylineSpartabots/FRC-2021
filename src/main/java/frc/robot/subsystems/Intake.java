@@ -218,7 +218,21 @@ public class Intake extends Subsystem {
     }
 
     @Override
-    public void outputTelemetry() {
+    public void updateTelemetry() {
+        outputTelemetry.put("Intake State", mCurrentState.toString());
+
+        outputTelemetry.put("Intake Solenoid", mLeftIntakeSolenoid.get());
+
+        outputTelemetry.put("Inner Intake Supply Current", mInnerIntakeMotor.getSupplyCurrent());
+        outputTelemetry.put("Inner Intake Stator Current", mInnerIntakeMotor.getStatorCurrent());
+        outputTelemetry.put("Inner Intake Output", mInnerIntakeMotor.getLastSet());
+
+        outputTelemetry.put("Outer Intake Supply Current", mOuterIntakeMotor.getSupplyCurrent());
+        outputTelemetry.put("Outer Intake Stator Current", mOuterIntakeMotor.getStatorCurrent());
+        outputTelemetry.put("Outer Intake Output", mOuterIntakeMotor.getLastSet());
+    }
+
+    public void doNotOutputTelemetry() {
         if(debug) {
             SmartDashboard.putString("Intake State", mCurrentState.toString());
 
@@ -234,9 +248,25 @@ public class Intake extends Subsystem {
         }
     }
 
+    @Override
+    public void initTelemetry() {
+        this.buttons.put("Stop", new Button() {
+            @Override
+            public boolean canAct() {
+                return true;
+            }
 
-    
+            @Override
+            public void successAction() {
+                stop();
+            }
 
+            @Override
+            public void failAction() {
+                System.out.println("Shouldn't happen");
+            }
+        });
+    }
 
 
 }

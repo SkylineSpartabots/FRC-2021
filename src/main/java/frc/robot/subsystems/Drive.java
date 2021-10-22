@@ -478,7 +478,7 @@ public class Drive extends Subsystem {
      * mode, turns on break mode and limits stator current.
      * 
      * @param signal      the drive signal to set motor velocity
-     * @param feedforward the drive signal to set motor feedforward
+     * feedforward the drive signal to set motor feedforward
      */
     public synchronized void setVelocity(DriveSignal signal) {
         if (mDriveControlState == DriveControlState.OPEN_LOOP) {
@@ -760,8 +760,8 @@ public class Drive extends Subsystem {
      * 
      * Outputs if the drive train is overheating
      */
-    @Override
-    public void outputTelemetry() {
+
+    public void doNotOutputTelemtry() {
         /*
         SmartDashboard.putNumber("NavX Heading", getHeading().getDegrees());
         SmartDashboard.putNumber("Odometry X", mOdometry.getPoseMeters().getTranslation().getX());
@@ -769,13 +769,38 @@ public class Drive extends Subsystem {
         SmartDashboard.putNumber("Odometry Heading", mOdometry.getPoseMeters().getRotation().getDegrees());
         SmartDashboard.putBoolean("Is Aligned To Target", hasAlginedToTarget());*/
         
+
+        //button provides actual output?
+        
+    }
+
+    @Override
+    public void initTelemetry() {
+        this.buttons.put("Stop", new Button() {
+            @Override
+            public boolean canAct() {
+                return true;
+            }
+
+            @Override
+            public void successAction() {
+                stop();
+            }
+
+            @Override
+            public void failAction() {
+                System.out.println("This Shouldn't happen");
+            }
+        });
+    }
+
+    @Override
+    public void updateTelemetry() {
         outputTelemetry.put("NavX Heading", getHeading().getDegrees());
         outputTelemetry.put("Odometry X", mOdometry.getPoseMeters().getTranslation().getX());
         outputTelemetry.put("Odometry Y", mOdometry.getPoseMeters().getTranslation().getY());
         outputTelemetry.put("Odometry Heading", mOdometry.getPoseMeters().getRotation().getDegrees());
         outputTelemetry.put("Is Aligned To Target", hasAlginedToTarget());
-        //button provides actual output?
-        
     }
 
     public Request openLoopRequest(DriveSignal driveSignal) {

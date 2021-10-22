@@ -77,11 +77,7 @@ public class Limelight extends Subsystem {
     }
 
 
-    @Override
-    public synchronized void outputTelemetry() {
-        SmartDashboard.putBoolean("Has Target: ", mSeesTarget);
-        SmartDashboard.putBoolean("Is Close Shoot?", isCloseDistance());
-    }
+
 
     public enum LedMode {
         PIPELINE, OFF, BLINK, ON;
@@ -148,6 +144,38 @@ public class Limelight extends Subsystem {
     @Override
     public boolean checkSystem() {
         return false;
+    }
+
+    @Override
+    public void updateTelemetry() {
+        outputTelemetry.put("Has Target: ", mSeesTarget);
+        outputTelemetry.put("Is Close Shoot?", isCloseDistance());
+    }
+
+
+    public synchronized void doNotOutputTelemetry() {
+        SmartDashboard.putBoolean("Has Target: ", mSeesTarget);
+        SmartDashboard.putBoolean("Is Close Shoot?", isCloseDistance());
+    }
+
+    @Override
+    public void initTelemetry() {
+        this.buttons.put("Stop", new Button() {
+            @Override
+            public boolean canAct() {
+                return true;
+            }
+
+            @Override
+            public void successAction() {
+                stop();
+            }
+
+            @Override
+            public void failAction() {
+                System.out.println("This shouldn't happen");
+            }
+        });
     }
 
 }
