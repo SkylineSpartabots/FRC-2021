@@ -763,9 +763,15 @@ public class Drive extends Subsystem {
         SmartDashboard.putNumber("NavX Heading", getHeading().getDegrees());
         SmartDashboard.putNumber("Odometry X", mOdometry.getPoseMeters().getTranslation().getX());
         SmartDashboard.putNumber("Odometry Y", mOdometry.getPoseMeters().getTranslation().getY());
-        SmartDashboard.putNumber("Odometry Heading", mOdometry.getPoseMeters().getRotation().getDegrees());*/
+        SmartDashboard.putNumber("Odometry Heading", mOdometry.getPoseMeters().getRotation().getDegrees());
+        SmartDashboard.putBoolean("Is Aligned To Target", hasAlginedToTarget());*/
         
-        SmartDashboard.putBoolean("Is Aligned To Target", hasAlginedToTarget());
+        outputTelemetry.put("NavX Heading", getHeading().getDegrees());
+        outputTelemetry.put("Odometry X", mOdometry.getPoseMeters().getTranslation().getX());
+        outputTelemetry.put("Odometry Y", mOdometry.getPoseMeters().getTranslation().getY());
+        outputTelemetry.put("Odometry Heading", mOdometry.getPoseMeters().getRotation().getDegrees());
+        outputTelemetry.put("Is Aligned To Target", hasAlginedToTarget());
+        //button provides actual output?
         
     }
 
