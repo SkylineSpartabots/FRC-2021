@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 
 public class Dashboard {
     public static void parse(HashMap<String, Object> fields, HashMap<String, Button> button)throws IOException{
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        //BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         if (reader.readLine().equals("y")){
             for(String a : fields.keySet()){
                 System.out.println(a + ": " + fields.get(a));
