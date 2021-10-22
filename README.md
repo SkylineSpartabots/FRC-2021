@@ -1,21 +1,3 @@
-# **Todo List**
- - [] outputTelemetry	
-  - [] HashMap implementation	
-     - [] 	AirCompressor.java
-     - [] 	Climb.java
-     - [] 	Dashboard.java
-     - [X] 	Drive.java
-     - [X] 	Hopper.java
-     - [] 	Intake.java
-     - [] 	LED.java
-     - [] 	Limelight.java
-     - [] 	Shooter.java
-     - [] 	Spinner.java
-  - [] Button.java	
-  - [] Dashboard.java	
-   - [X] For loop parsing	
-
-
 # **Installation Steps**
 1. Install VSCode: https://code.visualstudio.com/download
 2. Install git: https://git-scm.com/downloads
