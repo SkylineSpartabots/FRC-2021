@@ -120,7 +120,7 @@ public class Hopper extends Subsystem {
             @Override
             public void onLoop(double timestamp) {
                 synchronized (Hopper.this) {
-                    //System.out.println("Number of Balls: " + mNumberOfBallsShot);
+                    // System.out.println("Number of Balls: " + mNumberOfBallsShot);
                     if (mCurrentState == HopperControlState.SENSORED_INTAKE
                             || mCurrentState == HopperControlState.SENSORED_INDEX
                             || mCurrentState == HopperControlState.SMART_SENSORED_INDEX
@@ -143,7 +143,7 @@ public class Hopper extends Subsystem {
 
                     if (mCurrentState == HopperControlState.SENSORED_INTAKE) {
                         if (mHasBall) {
-                            if(mSlowIndex) {
+                            if (mSlowIndex) {
                                 setBeltSpeed(0.25, 0.2);
                             } else {
                                 setBeltSpeed(0.0, 0.0);
@@ -153,8 +153,10 @@ public class Hopper extends Subsystem {
                             setIndexSpeed(mCurrentState.indexSpeed);
                             setBeltSpeed(mCurrentState.leftBeltSpeed, mCurrentState.rightBeltSpeed);
                         }
-                    } else if (mCurrentState == HopperControlState.SENSORED_INDEX || mCurrentState == HopperControlState.SMART_SENSORED_INDEX) {
-                        if(mCurrentState == HopperControlState.SMART_SENSORED_INDEX && !Drive.getInstance().hasAlginedToTarget()) {
+                    } else if (mCurrentState == HopperControlState.SENSORED_INDEX
+                            || mCurrentState == HopperControlState.SMART_SENSORED_INDEX) {
+                        if (mCurrentState == HopperControlState.SMART_SENSORED_INDEX
+                                && !Drive.getInstance().hasAlginedToTarget()) {
                             setIndexSpeed(0.0);
                             setBeltSpeed(0.0, 0.0);
                         } else {
@@ -172,7 +174,7 @@ public class Hopper extends Subsystem {
                                 setBeltSpeed(mCurrentState.leftBeltSpeed, mCurrentState.rightBeltSpeed);
                                 mIsUnjamming = false;
                             }
-                        } 
+                        }
                     }
                 }
             }
@@ -185,8 +187,8 @@ public class Hopper extends Subsystem {
         });
     }
 
-    public enum HopperControlState { 
-        OFF(0.0, 0.0, 0.0), INDEX(0.7 , 0.4, 0.85), SENSORED_INDEX(0.5, 0.5, 0.85), SENSORED_INTAKE(0.2, 0.2, 0.2),
+    public enum HopperControlState {
+        OFF(0.0, 0.0, 0.0), INDEX(0.7, 0.4, 0.85), SENSORED_INDEX(0.5, 0.5, 0.85), SENSORED_INTAKE(0.2, 0.2, 0.2),
         SLOW_INDEX(0.2, 0.15, 0.0), REVERSE(-0.3, -0.5, -0.5), SMART_SENSORED_INDEX(0.8, 0.5, 0.75);
 
         public double indexSpeed = 0.0;
@@ -270,8 +272,8 @@ public class Hopper extends Subsystem {
 
             @Override
             public boolean isFinished() {
-                return (mNumberOfBallsShot >= startNumberOfBalls + numberOfBalls) 
-                    || (Timer.getFPGATimestamp() - startTime) >= waitTime;
+                return (mNumberOfBallsShot >= startNumberOfBalls + numberOfBalls)
+                        || (Timer.getFPGATimestamp() - startTime) >= waitTime;
             }
         };
     }
@@ -304,19 +306,38 @@ public class Hopper extends Subsystem {
     @Override
     public void outputTelemetry() {
         if (debug) {
-            SmartDashboard.putString("Hopper State", mCurrentState.toString());
+            /*
+             * SmartDashboard.putString("Hopper State", mCurrentState.toString());
+             * 
+             * SmartDashboard.putNumber("Index Supply Current",
+             * mIndexMotor.getSupplyCurrent());
+             * SmartDashboard.putNumber("Index Stator Current",
+             * mIndexMotor.getStatorCurrent()); SmartDashboard.putNumber("Index Output",
+             * mIndexMotor.getLastSet());
+             * 
+             * SmartDashboard.putNumber("Left Belt Supply Current",
+             * mLeftBelt.getSupplyCurrent());
+             * SmartDashboard.putNumber("Left Belt Stator Current",
+             * mLeftBelt.getStatorCurrent()); SmartDashboard.putNumber("Left Belt Output",
+             * mLeftBelt.getLastSet());
+             * 
+             * SmartDashboard.putNumber("Right Belt Supply Current",
+             * mRightBelt.getSupplyCurrent());
+             * SmartDashboard.putNumber("Right Belt Stator Current",
+             * mRightBelt.getStatorCurrent()); SmartDashboard.putNumber("Right Belt Output",
+             * mRightBelt.getLastSet());
+             */
 
-            SmartDashboard.putNumber("Index Supply Current", mIndexMotor.getSupplyCurrent());
-            SmartDashboard.putNumber("Index Stator Current", mIndexMotor.getStatorCurrent());
-            SmartDashboard.putNumber("Index Output", mIndexMotor.getLastSet());
+            outputTelemetry.put("Index Supply Current", mIndexMotor.getSupplyCurrent());
+            outputTelemetry.put("Index Stator Current", mIndexMotor.getStatorCurrent());
+            outputTelemetry.put("Index Output", mIndexMotor.getLastSet());
+            outputTelemetry.put("Left Belt Supply Current", mLeftBelt.getSupplyCurrent());
+            outputTelemetry.put("Left Belt Stator Current", mLeftBelt.getStatorCurrent());
+            outputTelemetry.put("Left Belt Output", mLeftBelt.getLastSet());
+            outputTelemetry.put("Right Belt Supply Current", mRightBelt.getSupplyCurrent());
+            outputTelemetry.put("Right Belt Stator Current", mRightBelt.getStatorCurrent());
+            outputTelemetry.put("Right Belt Output", mRightBelt.getLastSet());
 
-            SmartDashboard.putNumber("Left Belt Supply Current", mLeftBelt.getSupplyCurrent());
-            SmartDashboard.putNumber("Left Belt Stator Current", mLeftBelt.getStatorCurrent());
-            SmartDashboard.putNumber("Left Belt Output", mLeftBelt.getLastSet());
-
-            SmartDashboard.putNumber("Right Belt Supply Current", mRightBelt.getSupplyCurrent());
-            SmartDashboard.putNumber("Right Belt Stator Current", mRightBelt.getStatorCurrent());
-            SmartDashboard.putNumber("Right Belt Output", mRightBelt.getLastSet());
         }
     }
 }
