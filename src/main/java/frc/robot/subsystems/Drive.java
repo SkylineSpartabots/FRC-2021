@@ -465,7 +465,8 @@ public class Drive extends Subsystem {
             }
         }
 
-        SmartDashboard.putNumber("Right Power", rightMotorOutput);
+        //SmartDashboard.putNumber("Right Power", rightMotorOutput);
+        outputTelemetry.put("Right Power", rightMotorOutput);
         setOpenLoop(new DriveSignal(Util.limit(leftMotorOutput, -1.0, 1.0), Util.limit(rightMotorOutput, -1.0, 1.0)));
 
     }
