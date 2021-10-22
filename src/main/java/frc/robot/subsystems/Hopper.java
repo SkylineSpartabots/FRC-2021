@@ -305,6 +305,7 @@ public class Hopper extends Subsystem {
 
     @Override
     public void updateTelemetry() {
+        outputTelemetry.put("Hopper State", mCurrentState.toString());
         outputTelemetry.put("Index Supply Current", mIndexMotor.getSupplyCurrent());
         outputTelemetry.put("Index Stator Current", mIndexMotor.getStatorCurrent());
         outputTelemetry.put("Index Output", mIndexMotor.getLastSet());
