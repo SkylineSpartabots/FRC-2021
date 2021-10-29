@@ -42,11 +42,7 @@ public abstract class Subsystem {
 
     public final void outputTelemetry() {
         updateTelemetry();
-        try {
-            Dashboard.parse(outputTelemetry, buttons);
-        } catch (Exception e) {
-            throw new RuntimeException("Error while parsing telemetry", e);
-        }
+        Dashboard.parse(outputTelemetry, buttons);
     }
 
     // add buttons here

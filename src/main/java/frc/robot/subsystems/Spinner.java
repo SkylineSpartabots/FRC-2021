@@ -367,7 +367,7 @@ public class Spinner extends Subsystem {
         });
     }
 
-
+    //used to be outputTelemetry
     public void doNotCallThis() {
         if(debug) {
             

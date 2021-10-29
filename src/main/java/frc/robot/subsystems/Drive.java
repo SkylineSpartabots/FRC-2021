@@ -760,7 +760,7 @@ public class Drive extends Subsystem {
      * 
      * Outputs if the drive train is overheating
      */
-
+    // used to be outputTelemetry
     public void doNotOutputTelemtry() {
         /*
         SmartDashboard.putNumber("NavX Heading", getHeading().getDegrees());

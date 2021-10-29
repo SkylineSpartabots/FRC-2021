@@ -317,7 +317,7 @@ public class Hopper extends Subsystem {
         outputTelemetry.put("Right Belt Output", mRightBelt.getLastSet());
     }
 
-    // cannot override outPutTelemetry
+    // cannot override outPutTelemetry, this used to be it
     public void doNotOutputTelemetry() {
         if (debug) {
             /*

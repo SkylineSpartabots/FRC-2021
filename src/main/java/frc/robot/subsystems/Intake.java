@@ -232,6 +232,7 @@ public class Intake extends Subsystem {
         outputTelemetry.put("Outer Intake Output", mOuterIntakeMotor.getLastSet());
     }
 
+    //used to be outputTelemetry
     public void doNotOutputTelemetry() {
         if(debug) {
             SmartDashboard.putString("Intake State", mCurrentState.toString());

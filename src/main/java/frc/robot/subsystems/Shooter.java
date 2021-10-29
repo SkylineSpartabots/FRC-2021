@@ -546,7 +546,7 @@ public class Shooter extends Subsystem {
     }
 
 
-
+    // used to be outputTelemetry
     public void doNotCallThis() {
         SmartDashboard.putBoolean("Ready to Fire?", isOnTarget());
         SmartDashboard.putNumber("Shooter Velocity RPM", getCurrentRpm());

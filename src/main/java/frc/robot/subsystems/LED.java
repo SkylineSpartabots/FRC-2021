@@ -165,6 +165,7 @@ public class LED extends Subsystem {
         });
     }
 
+    //used to be outputTelemetry
     public void doNotOutputTelemetry() {
         TelemetryUtil.print("Current RGB Values: " + mDesiredLEDState.red + ", " + mDesiredLEDState.green + ", "
                 + mDesiredLEDState.blue, PrintStyle.INFO, true);

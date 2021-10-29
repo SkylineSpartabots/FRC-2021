@@ -152,7 +152,7 @@ public class Limelight extends Subsystem {
         outputTelemetry.put("Is Close Shoot?", isCloseDistance());
     }
 
-
+    //used to be outputTelemetry
     public synchronized void doNotOutputTelemetry() {
         SmartDashboard.putBoolean("Has Target: ", mSeesTarget);
         SmartDashboard.putBoolean("Is Close Shoot?", isCloseDistance());
