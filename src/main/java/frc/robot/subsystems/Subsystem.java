@@ -16,6 +16,13 @@ import frc.robot.loops.ILooper;
  */
 public abstract class Subsystem {
 
+
+    public HashMap<String, Object> outputTelemetry = new HashMap<>();
+
+    public HashMap<String, Button> buttons = new HashMap<>();
+
+    public boolean hasEmergency = false;
+
     public void writeToLog() {}
 
     public void readPeriodicInputs() {}
@@ -45,11 +52,6 @@ public abstract class Subsystem {
     // add buttons here
     public abstract void initTelemetry();
 
-    public HashMap<String, Object> outputTelemetry = new HashMap<>();
-
-    public HashMap<String, Button> buttons = new HashMap<>();
-
-    public boolean hasEmergency = false;
 }
 
 // literally just testing to see if my git works well. also, HashMap<Integer, Object> vars = new HashMap<Integer, Object>();
