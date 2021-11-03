@@ -789,7 +789,7 @@ public class Drive extends Subsystem {
 
             @Override
             public void failAction() {
-                System.out.println("This Shouldn't happen");
+                System.out.println("Shouldn't happen");
             }
         });
     }

@@ -235,6 +235,7 @@ public class Intake extends Subsystem {
     //used to be outputTelemetry
     public void doNotOutputTelemetry() {
         if(debug) {
+            /*
             SmartDashboard.putString("Intake State", mCurrentState.toString());
 
             SmartDashboard.putBoolean("Intake Solenoid", mLeftIntakeSolenoid.get());
@@ -245,7 +246,7 @@ public class Intake extends Subsystem {
 
             SmartDashboard.putNumber("Outer Intake Supply Current", mOuterIntakeMotor.getSupplyCurrent());
             SmartDashboard.putNumber("Outer Intake Stator Current", mOuterIntakeMotor.getStatorCurrent());
-            SmartDashboard.putNumber("Outer Intake Output", mOuterIntakeMotor.getLastSet());
+            SmartDashboard.putNumber("Outer Intake Output", mOuterIntakeMotor.getLastSet()); */
         }
     }
 
