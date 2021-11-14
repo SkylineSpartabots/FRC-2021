@@ -1,8 +1,12 @@
 package frc.robot.subsystems;
 import java.util.HashMap;
+import java.util.function.Supplier;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import edu.wpi.first.wpilibj.shuffleboard.*;
+import edu.wpi.first.networktables.NetworkTableEntry;
+import edu.wpi.first.wpilibj.networktables.*;
 
 /**
  * Parses telemetry maps and prints them out to console for now, might add to dashboard later?
@@ -20,9 +24,10 @@ public class Dashboard {
         //BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
             System.out.println("Printing out field values");
             for(String a : fields.keySet()){
-                System.out.println(a + ", " + fields.get(a));
+                Shuffleboard.getTab("Sample").add(a, fields.get(a));
             }
             System.out.println("Printing out Buttons");
-            button.forEach((s, o) -> System.out.println("Button Name: " + s));
+            button.forEach((s, o) -> Shuffleboard.getTab("Sample").add("output?", false).withWidget("Button").getEntry());
         }
+        // this may or may not work. We pray.
 }
