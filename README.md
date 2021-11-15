@@ -20,3 +20,7 @@ for additional vendor libraries
 
 10. Download zip, and extract the folder (let me know if you need to be added to our organization on github)
 11. Replace the src folder with the src folder from the downloaded template
+## **Installing Shuffleboard and WPILIB Package**
+1. Go to the WPILIB github: https://github.com/wpilibsuite/allwpilib/releases/tag/v2021.3.1
+2. Download the latest stable/production release for your OS
+3. Install the package
