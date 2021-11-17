@@ -27,7 +27,7 @@ public class Dashboard {
                 Shuffleboard.getTab(subsystemName).add(a, fields.get(a));
             }
             System.out.println("Printing out Buttons");
-            button.forEach((s, o) -> Shuffleboard.getTab("Sample").add("output?", false).withWidget("Button").getEntry());
+            button.forEach((s, o) -> Shuffleboard.getTab("Sample").add(s, button.get(s)).withWidget("Button").getEntry());
         }
         // this may or may not work. We pray.
 }
