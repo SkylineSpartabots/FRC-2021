@@ -343,8 +343,9 @@ public class Spinner extends Subsystem {
     }
 
     @Override
-    public void updateTelemetry() {
+    public String updateTelemetry() {
         outputTelemetry.put("Random Number", 3);
+        return "Spinner";
     }
 
     @Override

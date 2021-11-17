@@ -38,11 +38,11 @@ public abstract class Subsystem {
     public abstract boolean checkSystem();
 
     // where subsystems update telemetry, gets updated in outputTelemetry
-    public abstract void updateTelemetry();
+    public abstract String updateTelemetry();
 
     public final void outputTelemetry() {
-        updateTelemetry();
-        Dashboard.parse(outputTelemetry, buttons);
+        String SubsystemName = updateTelemetry();
+        Dashboard.parse(outputTelemetry, buttons, SubsystemName);
     }
 
     // add buttons here

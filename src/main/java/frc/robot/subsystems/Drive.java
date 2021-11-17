@@ -795,12 +795,13 @@ public class Drive extends Subsystem {
     }
 
     @Override
-    public void updateTelemetry() {
+    public String updateTelemetry() {
         outputTelemetry.put("NavX Heading", getHeading().getDegrees());
         outputTelemetry.put("Odometry X", mOdometry.getPoseMeters().getTranslation().getX());
         outputTelemetry.put("Odometry Y", mOdometry.getPoseMeters().getTranslation().getY());
         outputTelemetry.put("Odometry Heading", mOdometry.getPoseMeters().getRotation().getDegrees());
         outputTelemetry.put("Is Aligned To Target", hasAlginedToTarget());
+        return "Drive";
     }
 
     public Request openLoopRequest(DriveSignal driveSignal) {

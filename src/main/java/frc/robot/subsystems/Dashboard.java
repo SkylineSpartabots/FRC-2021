@@ -20,11 +20,11 @@ public class Dashboard {
      * @param fields config field and values to print
      * @param button buttons to print (should work better when actually added to console)
      */
-    public static void parse(HashMap<String, Object> fields, HashMap<String, Button> button) {
+    public static void parse(HashMap<String, Object> fields, HashMap<String, Button> button, String subsystemName) {
         //BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
             System.out.println("Printing out field values");
             for(String a : fields.keySet()){
-                Shuffleboard.getTab("Sample").add(a, fields.get(a));
+                Shuffleboard.getTab(subsystemName).add(a, fields.get(a));
             }
             System.out.println("Printing out Buttons");
             button.forEach((s, o) -> Shuffleboard.getTab("Sample").add("output?", false).withWidget("Button").getEntry());

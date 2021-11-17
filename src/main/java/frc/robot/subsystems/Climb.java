@@ -217,8 +217,9 @@ public class Climb extends Subsystem {
     }
 
     @Override
-    public void updateTelemetry() {
+    public String updateTelemetry() {
         this.outputTelemetry.put("Random Number", 4);
+        return "Climb";
     }
 
     @Override

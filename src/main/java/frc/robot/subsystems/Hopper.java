@@ -304,7 +304,7 @@ public class Hopper extends Subsystem {
     }
 
     @Override
-    public void updateTelemetry() {
+    public String updateTelemetry() {
         outputTelemetry.put("Hopper State", mCurrentState.toString());
         outputTelemetry.put("Index Supply Current", mIndexMotor.getSupplyCurrent());
         outputTelemetry.put("Index Stator Current", mIndexMotor.getStatorCurrent());
@@ -315,6 +315,7 @@ public class Hopper extends Subsystem {
         outputTelemetry.put("Right Belt Supply Current", mRightBelt.getSupplyCurrent());
         outputTelemetry.put("Right Belt Stator Current", mRightBelt.getStatorCurrent());
         outputTelemetry.put("Right Belt Output", mRightBelt.getLastSet());
+        return "Hopper";
     }
 
     // cannot override outPutTelemetry, this used to be it

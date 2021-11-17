@@ -112,8 +112,9 @@ public class AirCompressor extends Subsystem {
     }
 
     @Override
-    public void updateTelemetry() {
+    public String updateTelemetry() {
         outputTelemetry.put("Random Number", 3);
+        return "Air Compressor";
     }
 
     @Override

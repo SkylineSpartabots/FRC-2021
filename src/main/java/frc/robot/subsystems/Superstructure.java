@@ -357,8 +357,9 @@ public class Superstructure extends Subsystem {
     }
 
     @Override
-    public void updateTelemetry() {
+    public String updateTelemetry() {
         // do not update anything for superstructure
+        return null;
     }
 
 

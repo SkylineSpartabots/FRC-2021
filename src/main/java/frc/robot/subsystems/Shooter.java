@@ -525,7 +525,7 @@ public class Shooter extends Subsystem {
     }
 
     @Override
-    public void updateTelemetry() {
+    public String updateTelemetry() {
         outputTelemetry.put("Ready to Fire?", isOnTarget());
         outputTelemetry.put("Shooter Velocity RPM", getCurrentRpm());
 
@@ -543,6 +543,7 @@ public class Shooter extends Subsystem {
             outputTelemetry.put("Right Shooter Supply Current", mSlaveShooter.getSupplyCurrent());
             outputTelemetry.put("Right Shooter Voltage", mSlaveShooter.getBusVoltage() * mSlaveShooter.getMotorOutputPercent());
         }
+        return "Shooter";
     }
 
 
