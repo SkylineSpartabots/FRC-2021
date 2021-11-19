@@ -27,6 +27,7 @@ public class Dashboard {
                 Shuffleboard.getTab(subsystemName).add(a, fields.get(a));
             }
             System.out.println("Printing out Buttons");
+            /*
             button.forEach((s, o) -> {
                 NetworkTableEntry entry = Shuffleboard.getTab(subsystemName)
                         .add(s, 0)
@@ -38,6 +39,7 @@ public class Dashboard {
                     o.successAction();
                 }
             });
+            */
         }
         // this may or may not work. We pray.
 }
