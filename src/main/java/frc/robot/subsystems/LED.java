@@ -157,7 +157,6 @@ public class LED extends Subsystem {
 
     @Override
     public void initTelemetry() {
-        /*
         this.buttons.put("Hi", new Button() {
             @Override
             public boolean canAct() {
@@ -174,7 +173,6 @@ public class LED extends Subsystem {
                 System.out.println("Shouldn't happen");
             }
         });
-        */
     }
 
     //used to be outputTelemetry

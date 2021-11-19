@@ -124,7 +124,6 @@ public class AirCompressor extends Subsystem {
 
     @Override
     public void initTelemetry() {
-        /*
         this.buttons.put("Hi", new Button() {
             @Override
             public boolean canAct() {
@@ -141,7 +140,6 @@ public class AirCompressor extends Subsystem {
                 System.out.println("Shouldn't happen");
             }
         });
-        */
     }
 
 }
