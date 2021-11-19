@@ -216,9 +216,10 @@ public class Climb extends Subsystem {
         return false;
     }
 
+    String a = "test";
     @Override
     public void updateTelemetry() {
-        this.outputTelemetry.put("Random Number", 4);
+        this.outputTelemetry.put("Random Value", a);
     }
 
     @Override
