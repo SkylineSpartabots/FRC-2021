@@ -139,10 +139,10 @@ public class LED extends Subsystem {
         return false;
     }
 
-    Integer a = 3;
+    String a = "test";
     @Override
     public void updateTelemetry() {
-        outputTelemetry.put("test", a);
+        outputTelemetry.put("Random Value", a);
         // this.outputTelemetry.put("Current RGB Values", mDesiredLEDState.red + ", " + mDesiredLEDState.green + ", "
         //         + mDesiredLEDState.blue);
         // outputTelemetry.put("Current R Value", mDesiredLEDState.red);
