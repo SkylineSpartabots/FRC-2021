@@ -140,16 +140,23 @@ public class LED extends Subsystem {
     }
 
     @Override
-    public String updateTelemetry() {
+    public void updateTelemetry() {
         this.outputTelemetry.put("Current RGB Values", mDesiredLEDState.red + ", " + mDesiredLEDState.green + ", "
                 + mDesiredLEDState.blue);
+        outputTelemetry.put("Current R Value", mDesiredLEDState.red);
+        outputTelemetry.put("Current G Value", mDesiredLEDState.green);
+        outputTelemetry.put("Current B Value", mDesiredLEDState.blue);
+    }
 
+    @Override
+    public String getName() {
         return "LED";
     }
 
     @Override
     public void initTelemetry() {
-        this.buttons.put("Stop", new Button() {
+        /*
+        this.buttons.put("Hi", new Button() {
             @Override
             public boolean canAct() {
                 return true;
@@ -157,14 +164,15 @@ public class LED extends Subsystem {
 
             @Override
             public void successAction() {
-                stop();
+                System.out.println("hi");
             }
 
             @Override
             public void failAction() {
-                System.out.println("Shouldn't Happen");
+                System.out.println("Shouldn't happen");
             }
         });
+        */
     }
 
     //used to be outputTelemetry

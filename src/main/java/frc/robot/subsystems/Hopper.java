@@ -304,7 +304,7 @@ public class Hopper extends Subsystem {
     }
 
     @Override
-    public String updateTelemetry() {
+    public void updateTelemetry() {
         outputTelemetry.put("Hopper State", mCurrentState.toString());
         outputTelemetry.put("Index Supply Current", mIndexMotor.getSupplyCurrent());
         outputTelemetry.put("Index Stator Current", mIndexMotor.getStatorCurrent());
@@ -315,6 +315,10 @@ public class Hopper extends Subsystem {
         outputTelemetry.put("Right Belt Supply Current", mRightBelt.getSupplyCurrent());
         outputTelemetry.put("Right Belt Stator Current", mRightBelt.getStatorCurrent());
         outputTelemetry.put("Right Belt Output", mRightBelt.getLastSet());
+    }
+
+    @Override
+    public String getName() {
         return "Hopper";
     }
 
@@ -350,7 +354,7 @@ public class Hopper extends Subsystem {
 
     @Override
     public void initTelemetry() {
-        this.buttons.put("Stop", new Button() {
+        this.buttons.put("Hi", new Button() {
             @Override
             public boolean canAct() {
                 return true;
@@ -358,7 +362,7 @@ public class Hopper extends Subsystem {
 
             @Override
             public void successAction() {
-                stop();
+                System.out.println("hi");
             }
 
             @Override

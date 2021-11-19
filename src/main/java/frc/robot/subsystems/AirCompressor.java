@@ -112,14 +112,19 @@ public class AirCompressor extends Subsystem {
     }
 
     @Override
-    public String updateTelemetry() {
+    public void updateTelemetry() {
         outputTelemetry.put("Random Number", 3);
+    }
+
+    @Override
+    public String getName() {
         return "Air Compressor";
     }
 
     @Override
     public void initTelemetry() {
-        this.buttons.put("Stop", new Button() {
+        /*
+        this.buttons.put("Hi", new Button() {
             @Override
             public boolean canAct() {
                 return true;
@@ -127,14 +132,15 @@ public class AirCompressor extends Subsystem {
 
             @Override
             public void successAction() {
-                stop();
+                System.out.println("hi");
             }
 
             @Override
             public void failAction() {
-                System.out.println("This shouldn't happen");
+                System.out.println("Shouldn't happen");
             }
         });
+        */
     }
 
 }

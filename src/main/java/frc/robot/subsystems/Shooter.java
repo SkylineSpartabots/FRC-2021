@@ -525,7 +525,7 @@ public class Shooter extends Subsystem {
     }
 
     @Override
-    public String updateTelemetry() {
+    public void updateTelemetry() {
         outputTelemetry.put("Ready to Fire?", isOnTarget());
         outputTelemetry.put("Shooter Velocity RPM", getCurrentRpm());
 
@@ -543,9 +543,12 @@ public class Shooter extends Subsystem {
             outputTelemetry.put("Right Shooter Supply Current", mSlaveShooter.getSupplyCurrent());
             outputTelemetry.put("Right Shooter Voltage", mSlaveShooter.getBusVoltage() * mSlaveShooter.getMotorOutputPercent());
         }
-        return "Shooter";
     }
 
+    @Override
+    public String getName() {
+        return "Shooter";
+    }
 
     // used to be outputTelemetry
     public void doNotCallThis() {
@@ -570,7 +573,7 @@ public class Shooter extends Subsystem {
 
     @Override
     public void initTelemetry() {
-        this.buttons.put("Stop", new Button() {
+        this.buttons.put("Hi", new Button() {
             @Override
             public boolean canAct() {
                 return true;
@@ -578,12 +581,12 @@ public class Shooter extends Subsystem {
 
             @Override
             public void successAction() {
-                stop();
+                System.out.println("hi");
             }
 
             @Override
             public void failAction() {
-                System.out.println("Shouldn't Happen");
+                System.out.println("Shouldn't happen");
             }
         });
     }

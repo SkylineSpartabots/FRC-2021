@@ -97,6 +97,11 @@ public class Spinner extends Subsystem {
 
 
     @Override
+    public String getName() {
+        return "Spinner";
+    }
+
+    @Override
     public void registerEnabledLoops(ILooper mEnabledLooper) {
         mEnabledLooper.register(new Loop() {
 
@@ -343,14 +348,14 @@ public class Spinner extends Subsystem {
     }
 
     @Override
-    public String updateTelemetry() {
+    public void updateTelemetry() {
         outputTelemetry.put("Random Number", 3);
-        return "Spinner";
     }
 
     @Override
     public void initTelemetry() {
-        this.buttons.put("Stop", new Button() {
+        /*
+        this.buttons.put("Hi", new Button() {
             @Override
             public boolean canAct() {
                 return true;
@@ -358,7 +363,7 @@ public class Spinner extends Subsystem {
 
             @Override
             public void successAction() {
-                stop();
+                System.out.println("hi");
             }
 
             @Override
@@ -366,6 +371,7 @@ public class Spinner extends Subsystem {
                 System.out.println("Shouldn't happen");
             }
         });
+        */
     }
 
     //used to be outputTelemetry
