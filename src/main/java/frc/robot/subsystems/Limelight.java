@@ -165,7 +165,7 @@ public class Limelight extends Subsystem {
 
     @Override
     public void initTelemetry() {
-        this.buttons.put("Stop", new Button() {
+        this.buttons.put("Hi", new Button() {
             @Override
             public boolean canAct() {
                 return true;
@@ -173,12 +173,12 @@ public class Limelight extends Subsystem {
 
             @Override
             public void successAction() {
-                stop();
+                System.out.println("hi");
             }
 
             @Override
             public void failAction() {
-                System.out.println("This shouldn't happen");
+                System.out.println("Shouldn't happen");
             }
         });
     }

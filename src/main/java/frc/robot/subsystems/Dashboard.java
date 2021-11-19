@@ -27,7 +27,17 @@ public class Dashboard {
                 Shuffleboard.getTab(subsystemName).add(a, fields.get(a));
             }
             System.out.println("Printing out Buttons");
-            button.forEach((s, o) -> Shuffleboard.getTab("Sample").add(s, button.get(s)).withWidget("Button").getEntry());
+            button.forEach((s, o) -> {
+                NetworkTableEntry entry = Shuffleboard.getTab(subsystemName)
+                        .add(s, 0)
+                        .withWidget(BuiltInWidgets.kToggleButton)
+                        .getEntry();
+
+                boolean entryBoolean = entry.getBoolean(false);
+                if (entryBoolean && o.canAct()) {
+                    o.successAction();
+                }
+            });
         }
         // this may or may not work. We pray.
 }
