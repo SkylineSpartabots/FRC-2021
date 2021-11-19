@@ -43,7 +43,6 @@ public abstract class Subsystem {
     public abstract void updateTelemetry();
 
     public final void outputTelemetry() {
-        updateTelemetry();
         Dashboard.parse(outputTelemetry, buttons, getName());
     }
 

@@ -1,0 +1,815 @@
+EASUREMENT WINDOW ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <19
+> LEFT SHOOTER MOTOR FAILED TO SET VELOCITY MEASUREMENT WINDOW ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): LEFT SHOOTER MOTOR FAILED TO SET SENSOR COEFFECIENT ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <19
+> LEFT SHOOTER MOTOR FAILED TO SET SENSOR COEFFECIENT ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): LEFT SHOOTER MOTOR FAILED TO SET OPEN LOOP 
+RAMP RATE ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <19
+> LEFT SHOOTER MOTOR FAILED TO SET OPEN LOOP RAMP RATE ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): LEFT SHOOTER MOTOR FAILED TO SET CLOSED LOOP RAMP RATE ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <19
+> LEFT SHOOTER MOTOR FAILED TO SET CLOSED LOOP RAMP RATE ON INIT SIGNOTUPDATED !!! E_LOG
+S_LOG !!! ERROR: <19
+> LEFT SHOOTER MOTOR FAILED TO SET OPEN LOOP RAMP RATE ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): LEFT SHOOTER MOTOR FAILED TO DISABLE FWD SOFT LIMIT SIGNOTUPDATED
+S_LOG !!! ERROR: <20
+> LEFT SHOOTER MOTOR FAILED TO DISABLE FWD SOFT LIMIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): LEFT SHOOTER MOTOR FAILED TO DISABLE REVERSE SOFT LIMIT SIGNOTUPDATED
+S_LOG !!! ERROR: <20
+> LEFT SHOOTER MOTOR FAILED TO DISABLE REVERSE SOFT LIMIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): LEFT SHOOTER MOTOR FAILED TO SET VOLTAGE COMPENSATION SIGNOTUPDATED
+!!! ERROR: LEFT SHOOTER MOTOR FAILED TO SET VOLTAGE COMPENSATION SIGNOTUPDATED !!!
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): LEFT SHOOTER MOTOR FAILED TO SET OUTPUT CURRENT LIMIT SIGNOTUPDATED
+!!! ERROR: LEFT SHOOTER MOTOR FAILED TO SET OUTPUT CURRENT LIMIT SIGNOTUPDATED !!!
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): LEFT SHOOTER MOTOR FAILED TO SET INPUT CURRENT LIMIT SIGNOTUPDATED
+!!! ERROR: LEFT SHOOTER MOTOR FAILED TO SET INPUT CURRENT LIMIT SIGNOTUPDATED !!!
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): LEFT SHOOTER MOTOR FAILED TO SET FEEDBACK SENSOR SIGNOTUPDATED
+S_LOG !!! ERROR: <20
+> LEFT SHOOTER MOTOR FAILED TO SET FEEDBACK SENSOR SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): LEFT SHOOTER MOTOR FAILED TO SET VELOCITY MEAS. PERIOD SIGNOTUPDATED
+S_LOG !!! ERROR: <20
+> LEFT SHOOTER MOTOR FAILED TO SET VELOCITY MEAS. PERIOD SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): LEFT SHOOTER MOTOR FAILED TO SET VELOCITY MEAS. WINDOW SIGNOTUPDATED
+S_LOG !!! ERROR: <20
+> LEFT SHOOTER MOTOR FAILED TO SET VELOCITY MEAS. WINDOW SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): LEFT SHOOTER MOTOR FAILED TO SET OPEN LOOP 
+RAMP RATE SIGNOTUPDATED
+S_LOG !!! ERROR: <20
+> LEFT SHOOTER MOTOR FAILED TO SET OPEN LOOP RAMP RATE SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): LEFT SHOOTER MOTOR FAILED TO SET CLOSED LOOP RAMP RATE SIGNOTUPDATED
+S_LOG !!! ERROR: <20
+> LEFT SHOOTER MOTOR FAILED TO SET CLOSED LOOP RAMP RATE SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): LEFT SHOOTER MOTOR FAILED TO SET NEUTRAL DEADBAND SIGNOTUPDATED
+S_LOG !!! ERROR: <20
+> LEFT SHOOTER MOTOR FAILED TO SET NEUTRAL DEADBAND SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): RIGHT SHOOTER MOTOR FAILED TO CONFIGURE NEUTRAL DEADBAND ON INIT SIGNOTUPDATED
+!!! ERROR: RIGHT SHOOTER MOTOR FAILED TO CONFIGURE NEUTRAL DEADBAND ON INIT SIGNOTUPDATED !!!
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): RIGHT SHOOTER MOTOR FAILED TO SET GENERAL STATUS FRAME RATE ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <20
+> RIGHT SHOOTER MOTOR FAILED TO SET GENERAL STATUS FRAME RATE ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): RIGHT SHOOTER MOTOR FAILED TO SET FEEDBACK 
+STATUS FRAME RATE ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <20
+> RIGHT SHOOTER MOTOR FAILED TO SET FEEDBACK STATUS FRAME RATE ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): RIGHT SHOOTER MOTOR FAILED TO SET QUAD ENCODER FRAME RATE ON INIT SIGNOTUPDATED
+!!! ERROR: RIGHT SHOOTER MOTOR FAILED TO SET QUAD ENCODER FRAME RATE ON INIT SIGNOTUPDATED !!!
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): RIGHT SHOOTER MOTOR FAILED TO SET FAULTS AND TEMP UPDATE RATE ON INIT SIGNOTUPDATED
+!!! ERROR: RIGHT SHOOTER MOTOR FAILED TO SET FAULTS AND TEMP UPDATE RATE ON INIT SIGNOTUPDATED !!!
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): RIGHT SHOOTER MOTOR FAILED TO SET PULSE WIDTH STATUS UPDATE RATE ON INIT SIGNOTUPDATED
+!!! ERROR: RIGHT SHOOTER MOTOR FAILED TO SET PULSE WIDTH STATUS UPDATE RATE ON INIT SIGNOTUPDATED !!!
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): RIGHT SHOOTER MOTOR FAILED TO SET OUTPUT CURRENT LIMIT ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <21
+> RIGHT SHOOTER MOTOR FAILED TO SET OUTPUT CURRENT LIMIT ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): RIGHT SHOOTER MOTOR FAILED TO SET INPUT CURRENT LIMIT ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <21
+> RIGHT SHOOTER MOTOR FAILED TO SET INPUT CURRENT LIMIT ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): RIGHT SHOOTER MOTOR FAILED TO SET VELOCITY 
+MEAS. PERIOD ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <21
+> RIGHT SHOOTER MOTOR FAILED TO SET VELOCITY MEAS. PERIOD ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): RIGHT SHOOTER MOTOR FAILED TO SET VELOCITY 
+MEASUREMENT WINDOW ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <21
+> RIGHT SHOOTER MOTOR FAILED TO SET VELOCITY MEASUREMENT WINDOW ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): RIGHT SHOOTER MOTOR FAILED TO SET SENSOR COEFFECIENT ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <21
+> RIGHT SHOOTER MOTOR FAILED TO SET SENSOR COEFFECIENT ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): RIGHT SHOOTER MOTOR FAILED TO SET OPEN LOOP RAMP RATE ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <21
+> RIGHT SHOOTER MOTOR FAILED TO SET OPEN LOOP RAMP RATE ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): RIGHT SHOOTER MOTOR FAILED TO SET CLOSED LOOP RAMP RATE ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <21
+> RIGHT SHOOTER MOTOR FAILED TO SET CLOSED LOOP RAMP RATE ON INIT SIGNOTUPDATED !!! E_LOG
+S_LOG !!! ERROR: <21
+> RIGHT SHOOTER MOTOR FAILED TO SET OPEN LOOP RAMP RATE ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): RIGHT SHOOTER MOTOR FAILED TO DISABLE FWD SOFT LIMIT SIGNOTUPDATED
+S_LOG !!! ERROR: <21
+> RIGHT SHOOTER MOTOR FAILED TO DISABLE FWD SOFT LIMIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): RIGHT SHOOTER MOTOR FAILED TO DISABLE REVERSE SOFT LIMIT SIGNOTUPDATED
+S_LOG !!! ERROR: <21
+> RIGHT SHOOTER MOTOR FAILED TO DISABLE REVERSE SOFT LIMIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): RIGHT SHOOTER MOTOR FAILED TO SET VOLTAGE COMPENSATION SIGNOTUPDATED
+!!! ERROR: RIGHT SHOOTER MOTOR FAILED TO SET VOLTAGE COMPENSATION SIGNOTUPDATED !!!
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): RIGHT SHOOTER MOTOR FAILED TO SET OUTPUT CURRENT LIMIT SIGNOTUPDATED
+!!! ERROR: RIGHT SHOOTER MOTOR FAILED TO SET OUTPUT CURRENT LIMIT SIGNOTUPDATED !!!
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): RIGHT SHOOTER MOTOR FAILED TO SET INPUT CURRENT LIMIT SIGNOTUPDATED
+!!! ERROR: RIGHT SHOOTER MOTOR FAILED TO SET INPUT CURRENT LIMIT SIGNOTUPDATED !!!
+java.io.FileNotFoundException: \home\lvuser\crash_tracking.txt (The system cannot find the path specified)
+        at java.base/java.io.FileOutputStream.open0(Native Method)
+        at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+        at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+        at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:158)
+        at java.base/java.io.FileWriter.<init>(FileWriter.java:82)
+        at frc.lib.util.CrashTracker.logMarker(CrashTracker.java:50)
+        at frc.lib.util.CrashTracker.logMarker(CrashTracker.java:45)
+        at frc.lib.util.CrashTracker.logRobotConstruction(CrashTracker.java:17)
+        at frc.robot.Robot.<init>(Robot.java:86)
+        at edu.wpi.first.wpilibj.RobotBase.runRobot(RobotBase.java:289)
+        at edu.wpi.first.wpilibj.RobotBase.startRobot(RobotBase.java:407)
+        at frc.robot.Main.main(Main.java:27)
+java.io.FileNotFoundException: \home\lvuser\crash_tracking.txt (The system cannot find the path specified)   
+        at java.base/java.io.FileOutputStream.open0(Native Method)
+        at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+        at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+        at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:158)
+        at java.base/java.io.FileWriter.<init>(FileWriter.java:82)
+        at frc.lib.util.CrashTracker.logMarker(CrashTracker.java:50)
+        at frc.lib.util.CrashTracker.logMarker(CrashTracker.java:45)
+        at frc.lib.util.CrashTracker.logRobotInit(CrashTracker.java:21)
+        at frc.robot.Robot.robotInit(Robot.java:93)
+        at edu.wpi.first.wpilibj.TimedRobot.startCompetition(TimedRobot.java:94)
+        at edu.wpi.first.wpilibj.RobotBase.runRobot(RobotBase.java:335)
+        at edu.wpi.first.wpilibj.RobotBase.startRobot(RobotBase.java:407)
+        at frc.robot.Main.main(Main.java:27)
+navX-Sensor Software Yaw Reset completed.
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE LEFT MASTER FAILED TO RESET ENCODER SIGNOTUPDATED
+S_LOG !!! ERROR: <24
+> DRIVE LEFT MASTER FAILED TO RESET ENCODER SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE RIGHT MASTER FAILED TO RESET ENCODER 
+SIGNOTUPDATED
+S_LOG !!! ERROR: <24
+> DRIVE RIGHT MASTER FAILED TO RESET ENCODER SIGNOTUPDATED !!! E_LOG
+Generating trajectories...
+Finished trajectory generation in: 0.21580900000000014 seconds
+Auto selection changed, updating creator: desiredMode->TRENCH_RUN, starting position->TARGET_SIDE
+Default simulationInit() method... Override me!
+java.io.FileNotFoundException: \home\lvuser\crash_tracking.txt (The system cannot find the path specified)   
+        at java.base/java.io.FileOutputStream.open0(Native Method)
+Warning at edu.wpi.first.wpilibj.IterativeRobotBase.printLoopOverrunMessage(IterativeRobotBase.java:301): Loop time of 0.02s overrun
+
+        at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+        at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+        at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:158)
+        at java.base/java.io.FileWriter.<init>(FileWriter.java:82)
+        at frc.lib.util.CrashTracker.logMarker(CrashTracker.java:50)
+        at frc.lib.util.CrashTracker.logMarker(CrashTracker.java:45)
+        at frc.lib.util.CrashTracker.logDisabledInit(CrashTracker.java:33)
+        at frc.robot.Robot.disabledInit(Robot.java:137)
+        at edu.wpi.first.wpilibj.IterativeRobotBase.loopFunc(IterativeRobotBase.java:218)
+        at edu.wpi.first.wpilibj.TimedRobot.startCompetition(TimedRobot.java:117)
+        at edu.wpi.first.wpilibj.RobotBase.runRobot(RobotBase.java:335)
+        at edu.wpi.first.wpilibj.RobotBase.startRobot(RobotBase.java:407)
+        at frc.robot.Main.main(Main.java:27)
+Auto selection changed, updating creator: desiredMode->TRENCH_RUN, starting position->TARGET_SIDE
+Starting loops
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): IS BRAKE MODE: FALSE
+S_LOG !!! ERROR: <24
+> IS BRAKE MODE: FALSE !!! E_LOG
+Set auto mode to: class frc.robot.auto.modes.TrenchRun
+Printing out field values
+Printing out Buttons
+Printing out field values
+Printing out Buttons
+Printing out field values
+Printing out Buttons
+Printing out field values
+Printing out Buttons
+Printing out field values
+Printing out Buttons
+Printing out field values
+java.io.FileNotFoundException: \home\lvuser\crash_tracking.txt (The system cannot find the path specified)
+        at java.base/java.io.FileOutputStream.open0(Native Method)
+        at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+        at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+        at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:158)
+        at java.base/java.io.FileWriter.<init>(FileWriter.java:82)
+        at frc.lib.util.CrashTracker.logMarker(CrashTracker.java:50)
+        at frc.lib.util.CrashTracker.logThrowableCrash(CrashTracker.java:41)
+        at frc.robot.Robot.robotPeriodic(Robot.java:128)
+        at edu.wpi.first.wpilibj.IterativeRobotBase.loopFunc(IterativeRobotBase.java:270)
+        at edu.wpi.first.wpilibj.TimedRobot.startCompetition(TimedRobot.java:117)
+        at edu.wpi.first.wpilibj.RobotBase.runRobot(RobotBase.java:335)
+        at edu.wpi.first.wpilibj.RobotBase.startRobot(RobotBase.java:407)
+        at frc.robot.Main.main(Main.java:27)
+Error at frc.robot.subsystems.Dashboard.parse(Dashboard.java:27): Unhandled exception: java.lang.IllegalArgumentException: Cannot add data of type com.ctre.phoenix.ErrorCode to Shuffleboard
+        at edu.wpi.first.wpilibj.shuffleboard.ContainerHelper.checkNtType(ContainerHelper.java:133)
+        at edu.wpi.first.wpilibj.shuffleboard.ContainerHelper.add(ContainerHelper.java:74)
+        at edu.wpi.first.wpilibj.shuffleboard.ShuffleboardTab.add(ShuffleboardTab.java:67)
+        at frc.robot.subsystems.Dashboard.parse(Dashboard.java:27)
+        at frc.robot.subsystems.Subsystem.outputTelemetry(Subsystem.java:47)
+        at java.base/java.util.Arrays$ArrayList.forEach(Arrays.java:4390)
+        at frc.robot.subsystems.SubsystemManager.outputToSmartDashboard(SubsystemManager.java:36)
+        at frc.robot.Robot.robotPeriodic(Robot.java:126)
+        at edu.wpi.first.wpilibj.IterativeRobotBase.loopFunc(IterativeRobotBase.java:270)
+        at edu.wpi.first.wpilibj.TimedRobot.startCompetition(TimedRobot.java:117)
+        at edu.wpi.first.wpilibj.RobotBase.runRobot(RobotBase.java:335)
+        at edu.wpi.first.wpilibj.RobotBase.startRobot(RobotBase.java:407)
+        at frc.robot.Main.main(Main.java:27)
+
+Warning at edu.wpi.first.wpilibj.RobotBase.runRobot(RobotBase.java:350): Robots should not quit, but yours did!
+PS C:\Users\Spencer.NIKE-PC\Documents\Spartabots\FRC-2021>  c:; cd 'c:\Users\Spencer.NIKE-PC\Documents\Spartabots\FRC-2021'; ${env:HALSIM_EXTENSIONS}='C:\Users\Spencer.NIKE-PC\Documents\Spartabots\FRC-2021\build\tmp\expandedArchives\halsim_gui-2021.3.1-windowsx86-64.zip_323ba05d82fed35fbc1ea2c04141a0a5\windows\x86-64\shared\halsim_gui.dll;C:\Users\Spencer.NIKE-PC\Documents\Spartabots\FRC-2021\build\tmp\expandedArchives\halsim_ds_socket-2021.3.1-windowsx86-64.zip_5f77b11b08590618ca2ba5550844833c\windows\x86-64\shared\halsim_ds_socket.dll;'; ${env:PATH}='C:\Users\Spencer.NIKE-PC\Documents\Spartabots\FRC-2021\build\tmp\jniExtractDir'; & 'C:\Users\Public\wpilib\2021\vscode\data\extensions\vscjava.vscode-java-debug-0.30.0\scripts\launcher.bat' 'C:\Users\Public\wpilib\2021\jdk\bin\java.exe' '-agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:59013' '-Djava.library.path=C:\Users\Spencer.NIKE-PC\Documents\Spartabots\FRC-2021\build\tmp\jniExtractDir' '-Dfile.encoding=UTF-8' '@C:\Users\SPENCE~1.NIK\AppData\Local\Temp\cp_e3zulj5rimjkjj8eera38u8yy.argfile' 'frc.robot.Main' 
+'chcp.com' is not recognized as an internal or external command,
+operable program or batch file.
+HAL Extensions: Attempting to load: halsim_gui
+Simulator GUI Initializing.
+Simulator GUI Initialized!
+HAL Extensions: Successfully loaded extension
+HAL Extensions: Attempting to load: halsim_ds_socket
+DriverStationSocket Initializing.
+DriverStationSocket Initialized!
+HAL Extensions: Successfully loaded extension
+********** Robot program starting **********
+NT: server: client CONNECTED: 127.0.0.1 port 59022
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE LEFT MASTER FAILED TO CONFIGURE NEUTRAL DEADBAND ON INIT SIGNOTUPDATED
+!!! ERROR: DRIVE LEFT MASTER FAILED TO CONFIGURE NEUTRAL DEADBAND ON INIT SIGNOTUPDATED !!!
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE LEFT MASTER FAILED TO SET GENERAL STATUS FRAME RATE ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <2.3
+> DRIVE LEFT MASTER FAILED TO SET GENERAL STATUS FRAME RATE ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE LEFT MASTER FAILED TO SET FEEDBACK STATUS FRAME RATE ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <2.4
+> DRIVE LEFT MASTER FAILED TO SET FEEDBACK STATUS FRAME RATE ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE LEFT MASTER FAILED TO SET QUAD ENCODER FRAME RATE ON INIT SIGNOTUPDATED
+!!! ERROR: DRIVE LEFT MASTER FAILED TO SET QUAD ENCODER FRAME RATE ON INIT SIGNOTUPDATED !!!
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE LEFT MASTER FAILED TO SET FAULTS AND 
+TEMP UPDATE RATE ON INIT SIGNOTUPDATED
+!!! ERROR: DRIVE LEFT MASTER FAILED TO SET FAULTS AND TEMP UPDATE RATE ON INIT SIGNOTUPDATED !!!
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE LEFT MASTER FAILED TO SET PULSE WIDTH STATUS UPDATE RATE ON INIT SIGNOTUPDATED
+!!! ERROR: DRIVE LEFT MASTER FAILED TO SET PULSE WIDTH STATUS UPDATE RATE ON INIT SIGNOTUPDATED !!!
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE LEFT MASTER FAILED TO SET OUTPUT CURRENT LIMIT ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <2.8
+> DRIVE LEFT MASTER FAILED TO SET OUTPUT CURRENT LIMIT ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE LEFT MASTER FAILED TO SET INPUT CURRENT LIMIT ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <3.0
+> DRIVE LEFT MASTER FAILED TO SET INPUT CURRENT LIMIT ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE LEFT MASTER FAILED TO SET VELOCITY MEAS. PERIOD ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <3.1
+> DRIVE LEFT MASTER FAILED TO SET VELOCITY MEAS. PERIOD ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE LEFT MASTER FAILED TO SET VELOCITY MEASUREMENT WINDOW ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <3.2
+> DRIVE LEFT MASTER FAILED TO SET VELOCITY MEASUREMENT WINDOW ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE LEFT MASTER FAILED TO SET SENSOR COEFFECIENT ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <3.3
+> DRIVE LEFT MASTER FAILED TO SET SENSOR COEFFECIENT ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE LEFT MASTER FAILED TO SET OPEN LOOP RAMP RATE ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <3.6
+> DRIVE LEFT MASTER FAILED TO SET OPEN LOOP RAMP RATE ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE LEFT MASTER FAILED TO SET CLOSED LOOP RAMP RATE ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <3.7
+> DRIVE LEFT MASTER FAILED TO SET CLOSED LOOP RAMP RATE ON INIT SIGNOTUPDATED !!! E_LOG
+S_LOG !!! ERROR: <3.7
+> DRIVE LEFT MASTER FAILED TO SET OPEN LOOP RAMP RATE ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE LEFT MASTER FAILED TO DISABLE FWD SOFT LIMIT SIGNOTUPDATED
+S_LOG !!! ERROR: <4.1
+> DRIVE LEFT MASTER FAILED TO DISABLE FWD SOFT LIMIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE LEFT MASTER FAILED TO DISABLE REVERSE SOFT LIMIT SIGNOTUPDATED
+S_LOG !!! ERROR: <4.5
+> DRIVE LEFT MASTER FAILED TO DISABLE REVERSE SOFT LIMIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE LEFT MASTER FAILED TO SET VOLTAGE COMPENSATION SIGNOTUPDATED
+S_LOG !!! ERROR: <4.8
+> DRIVE LEFT MASTER FAILED TO SET VOLTAGE COMPENSATION SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE LEFT MASTER FAILED TO SET OUTPUT CURRENT LIMIT SIGNOTUPDATED
+S_LOG !!! ERROR: <5.3
+> DRIVE LEFT MASTER FAILED TO SET OUTPUT CURRENT LIMIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE LEFT MASTER FAILED TO SET INPUT CURRENT LIMIT SIGNOTUPDATED
+S_LOG !!! ERROR: <5.7
+> DRIVE LEFT MASTER FAILED TO SET INPUT CURRENT LIMIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE LEFT MASTER FAILED TO SET FEEDBACK SENSOR SIGNOTUPDATED
+S_LOG !!! ERROR: <5.8
+> DRIVE LEFT MASTER FAILED TO SET FEEDBACK SENSOR SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE LEFT MASTER FAILED TO SET VELOCITY MEAS. PERIOD SIGNOTUPDATED
+S_LOG !!! ERROR: <5.8
+> DRIVE LEFT MASTER FAILED TO SET VELOCITY MEAS. PERIOD SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE LEFT MASTER FAILED TO SET VELOCITY MEAS. WINDOW SIGNOTUPDATED
+S_LOG !!! ERROR: <5.9
+> DRIVE LEFT MASTER FAILED TO SET VELOCITY MEAS. WINDOW SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE LEFT MASTER FAILED TO SET OPEN LOOP RAMP RATE SIGNOTUPDATED
+S_LOG !!! ERROR: <6.0
+> DRIVE LEFT MASTER FAILED TO SET OPEN LOOP RAMP RATE SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE LEFT MASTER FAILED TO SET CLOSED LOOP RAMP RATE SIGNOTUPDATED
+S_LOG !!! ERROR: <6.0
+> DRIVE LEFT MASTER FAILED TO SET CLOSED LOOP RAMP RATE SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE LEFT MASTER FAILED TO SET NEUTRAL DEADBAND SIGNOTUPDATED
+S_LOG !!! ERROR: <6.1
+> DRIVE LEFT MASTER FAILED TO SET NEUTRAL DEADBAND SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE LEFT SLAVE FAILED TO CONFIGURE NEUTRAL DEADBAND ON INIT SIGNOTUPDATED
+!!! ERROR: DRIVE LEFT SLAVE FAILED TO CONFIGURE NEUTRAL DEADBAND ON INIT SIGNOTUPDATED !!!
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE LEFT SLAVE FAILED TO SET GENERAL STATUS FRAME RATE ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <6.2
+> DRIVE LEFT SLAVE FAILED TO SET GENERAL STATUS FRAME RATE ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE LEFT SLAVE FAILED TO SET FEEDBACK STATUS FRAME RATE ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <6.3
+> DRIVE LEFT SLAVE FAILED TO SET FEEDBACK STATUS FRAME RATE ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE LEFT SLAVE FAILED TO SET QUAD ENCODER FRAME RATE ON INIT SIGNOTUPDATED
+!!! ERROR: DRIVE LEFT SLAVE FAILED TO SET QUAD ENCODER FRAME RATE ON INIT SIGNOTUPDATED !!!
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE LEFT SLAVE FAILED TO SET FAULTS AND TEMP UPDATE RATE ON INIT SIGNOTUPDATED
+!!! ERROR: DRIVE LEFT SLAVE FAILED TO SET FAULTS AND TEMP UPDATE RATE ON INIT SIGNOTUPDATED !!!
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE LEFT SLAVE FAILED TO SET PULSE WIDTH 
+STATUS UPDATE RATE ON INIT SIGNOTUPDATED
+!!! ERROR: DRIVE LEFT SLAVE FAILED TO SET PULSE WIDTH STATUS UPDATE RATE ON INIT SIGNOTUPDATED !!!
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE LEFT SLAVE FAILED TO SET OUTPUT CURRENT LIMIT ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <6.5
+> DRIVE LEFT SLAVE FAILED TO SET OUTPUT CURRENT LIMIT ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE LEFT SLAVE FAILED TO SET INPUT CURRENT LIMIT ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <6.6
+> DRIVE LEFT SLAVE FAILED TO SET INPUT CURRENT LIMIT ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE LEFT SLAVE FAILED TO SET VELOCITY MEAS. PERIOD ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <6.7
+> DRIVE LEFT SLAVE FAILED TO SET VELOCITY MEAS. PERIOD ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE LEFT SLAVE FAILED TO SET VELOCITY MEASUREMENT WINDOW ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <6.7
+> DRIVE LEFT SLAVE FAILED TO SET VELOCITY MEASUREMENT WINDOW ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE LEFT SLAVE FAILED TO SET SENSOR COEFFECIENT ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <6.8
+> DRIVE LEFT SLAVE FAILED TO SET SENSOR COEFFECIENT ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE LEFT SLAVE FAILED TO SET OPEN LOOP RAMP RATE ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <6.8
+> DRIVE LEFT SLAVE FAILED TO SET OPEN LOOP RAMP RATE ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE LEFT SLAVE FAILED TO SET CLOSED LOOP 
+RAMP RATE ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <6.9
+> DRIVE LEFT SLAVE FAILED TO SET CLOSED LOOP RAMP RATE ON INIT SIGNOTUPDATED !!! E_LOG
+S_LOG !!! ERROR: <7.0
+> DRIVE LEFT SLAVE FAILED TO SET OPEN LOOP RAMP RATE ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE LEFT SLAVE FAILED TO DISABLE FWD SOFT LIMIT SIGNOTUPDATED
+S_LOG !!! ERROR: <7.2
+> DRIVE LEFT SLAVE FAILED TO DISABLE FWD SOFT LIMIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE LEFT SLAVE FAILED TO DISABLE REVERSE 
+SOFT LIMIT SIGNOTUPDATED
+S_LOG !!! ERROR: <7.3
+> DRIVE LEFT SLAVE FAILED TO DISABLE REVERSE SOFT LIMIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE LEFT SLAVE FAILED TO SET VOLTAGE COMPENSATION SIGNOTUPDATED
+S_LOG !!! ERROR: <7.4
+> DRIVE LEFT SLAVE FAILED TO SET VOLTAGE COMPENSATION SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE LEFT SLAVE FAILED TO SET OUTPUT CURRENT LIMIT SIGNOTUPDATED
+S_LOG !!! ERROR: <7.8
+> DRIVE LEFT SLAVE FAILED TO SET OUTPUT CURRENT LIMIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE LEFT SLAVE FAILED TO SET INPUT CURRENT LIMIT SIGNOTUPDATED
+S_LOG !!! ERROR: <8.3
+> DRIVE LEFT SLAVE FAILED TO SET INPUT CURRENT LIMIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE RIGHT MASTER FAILED TO CONFIGURE NEUTRAL DEADBAND ON INIT SIGNOTUPDATED
+!!! ERROR: DRIVE RIGHT MASTER FAILED TO CONFIGURE NEUTRAL DEADBAND ON INIT SIGNOTUPDATED !!!
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE RIGHT MASTER FAILED TO SET GENERAL STATUS FRAME RATE ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <8.4
+> DRIVE RIGHT MASTER FAILED TO SET GENERAL STATUS FRAME RATE ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE RIGHT MASTER FAILED TO SET FEEDBACK STATUS FRAME RATE ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <8.5
+> DRIVE RIGHT MASTER FAILED TO SET FEEDBACK STATUS FRAME RATE ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE RIGHT MASTER FAILED TO SET QUAD ENCODER FRAME RATE ON INIT SIGNOTUPDATED
+!!! ERROR: DRIVE RIGHT MASTER FAILED TO SET QUAD ENCODER FRAME RATE ON INIT SIGNOTUPDATED !!!
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE RIGHT MASTER FAILED TO SET FAULTS AND TEMP UPDATE RATE ON INIT SIGNOTUPDATED
+!!! ERROR: DRIVE RIGHT MASTER FAILED TO SET FAULTS AND TEMP UPDATE RATE ON INIT SIGNOTUPDATED !!!
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE RIGHT MASTER FAILED TO SET PULSE WIDTH STATUS UPDATE RATE ON INIT SIGNOTUPDATED
+!!! ERROR: DRIVE RIGHT MASTER FAILED TO SET PULSE WIDTH STATUS UPDATE RATE ON INIT SIGNOTUPDATED !!!
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE RIGHT MASTER FAILED TO SET OUTPUT CURRENT LIMIT ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <8.7
+> DRIVE RIGHT MASTER FAILED TO SET OUTPUT CURRENT LIMIT ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE RIGHT MASTER FAILED TO SET INPUT CURRENT LIMIT ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <8.8
+> DRIVE RIGHT MASTER FAILED TO SET INPUT CURRENT LIMIT ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE RIGHT MASTER FAILED TO SET VELOCITY MEAS. PERIOD ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <8.9
+> DRIVE RIGHT MASTER FAILED TO SET VELOCITY MEAS. PERIOD ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE RIGHT MASTER FAILED TO SET VELOCITY MEASUREMENT WINDOW ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <8.9
+> DRIVE RIGHT MASTER FAILED TO SET VELOCITY MEASUREMENT WINDOW ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE RIGHT MASTER FAILED TO SET SENSOR COEFFECIENT ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <9.0
+> DRIVE RIGHT MASTER FAILED TO SET SENSOR COEFFECIENT ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE RIGHT MASTER FAILED TO SET OPEN LOOP 
+RAMP RATE ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <9.1
+> DRIVE RIGHT MASTER FAILED TO SET OPEN LOOP RAMP RATE ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE RIGHT MASTER FAILED TO SET CLOSED LOOP RAMP RATE ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <9.1
+> DRIVE RIGHT MASTER FAILED TO SET CLOSED LOOP RAMP RATE ON INIT SIGNOTUPDATED !!! E_LOG
+S_LOG !!! ERROR: <9.2
+> DRIVE RIGHT MASTER FAILED TO SET OPEN LOOP RAMP RATE ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE RIGHT MASTER FAILED TO DISABLE FWD SOFT LIMIT SIGNOTUPDATED
+S_LOG !!! ERROR: <9.2
+> DRIVE RIGHT MASTER FAILED TO DISABLE FWD SOFT LIMIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE RIGHT MASTER FAILED TO DISABLE REVERSE SOFT LIMIT SIGNOTUPDATED
+S_LOG !!! ERROR: <9.3
+> DRIVE RIGHT MASTER FAILED TO DISABLE REVERSE SOFT LIMIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE RIGHT MASTER FAILED TO SET VOLTAGE COMPENSATION SIGNOTUPDATED
+S_LOG !!! ERROR: <9.4
+> DRIVE RIGHT MASTER FAILED TO SET VOLTAGE COMPENSATION SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE RIGHT MASTER FAILED TO SET OUTPUT CURRENT LIMIT SIGNOTUPDATED
+S_LOG !!! ERROR: <9.8
+> DRIVE RIGHT MASTER FAILED TO SET OUTPUT CURRENT LIMIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE RIGHT MASTER FAILED TO SET INPUT CURRENT LIMIT SIGNOTUPDATED
+S_LOG !!! ERROR: <10
+> DRIVE RIGHT MASTER FAILED TO SET INPUT CURRENT LIMIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE RIGHT MASTER FAILED TO SET FEEDBACK SENSOR SIGNOTUPDATED
+S_LOG !!! ERROR: <10
+> DRIVE RIGHT MASTER FAILED TO SET FEEDBACK SENSOR SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE RIGHT MASTER FAILED TO SET VELOCITY MEAS. PERIOD SIGNOTUPDATED
+S_LOG !!! ERROR: <10
+> DRIVE RIGHT MASTER FAILED TO SET VELOCITY MEAS. PERIOD SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE RIGHT MASTER FAILED TO SET VELOCITY MEAS. WINDOW SIGNOTUPDATED
+S_LOG !!! ERROR: <10
+> DRIVE RIGHT MASTER FAILED TO SET VELOCITY MEAS. WINDOW SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE RIGHT MASTER FAILED TO SET OPEN LOOP 
+RAMP RATE SIGNOTUPDATED
+S_LOG !!! ERROR: <10
+> DRIVE RIGHT MASTER FAILED TO SET OPEN LOOP RAMP RATE SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE RIGHT MASTER FAILED TO SET CLOSED LOOP RAMP RATE SIGNOTUPDATED
+S_LOG !!! ERROR: <10
+> DRIVE RIGHT MASTER FAILED TO SET CLOSED LOOP RAMP RATE SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE RIGHT MASTER FAILED TO SET NEUTRAL DEADBAND SIGNOTUPDATED
+S_LOG !!! ERROR: <10
+> DRIVE RIGHT MASTER FAILED TO SET NEUTRAL DEADBAND SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE RIGHT SLAVE FAILED TO CONFIGURE NEUTRAL DEADBAND ON INIT SIGNOTUPDATED
+!!! ERROR: DRIVE RIGHT SLAVE FAILED TO CONFIGURE NEUTRAL DEADBAND ON INIT SIGNOTUPDATED !!!
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE RIGHT SLAVE FAILED TO SET GENERAL STATUS FRAME RATE ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <11
+> DRIVE RIGHT SLAVE FAILED TO SET GENERAL STATUS FRAME RATE ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE RIGHT SLAVE FAILED TO SET FEEDBACK STATUS FRAME RATE ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <11
+> DRIVE RIGHT SLAVE FAILED TO SET FEEDBACK STATUS FRAME RATE ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE RIGHT SLAVE FAILED TO SET QUAD ENCODER FRAME RATE ON INIT SIGNOTUPDATED
+!!! ERROR: DRIVE RIGHT SLAVE FAILED TO SET QUAD ENCODER FRAME RATE ON INIT SIGNOTUPDATED !!!
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE RIGHT SLAVE FAILED TO SET FAULTS AND 
+TEMP UPDATE RATE ON INIT SIGNOTUPDATED
+!!! ERROR: DRIVE RIGHT SLAVE FAILED TO SET FAULTS AND TEMP UPDATE RATE ON INIT SIGNOTUPDATED !!!
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE RIGHT SLAVE FAILED TO SET PULSE WIDTH STATUS UPDATE RATE ON INIT SIGNOTUPDATED
+!!! ERROR: DRIVE RIGHT SLAVE FAILED TO SET PULSE WIDTH STATUS UPDATE RATE ON INIT SIGNOTUPDATED !!!
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE RIGHT SLAVE FAILED TO SET OUTPUT CURRENT LIMIT ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <11
+> DRIVE RIGHT SLAVE FAILED TO SET OUTPUT CURRENT LIMIT ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE RIGHT SLAVE FAILED TO SET INPUT CURRENT LIMIT ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <11
+> DRIVE RIGHT SLAVE FAILED TO SET INPUT CURRENT LIMIT ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE RIGHT SLAVE FAILED TO SET VELOCITY MEAS. PERIOD ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <11
+> DRIVE RIGHT SLAVE FAILED TO SET VELOCITY MEAS. PERIOD ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE RIGHT SLAVE FAILED TO SET VELOCITY MEASUREMENT WINDOW ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <11
+> DRIVE RIGHT SLAVE FAILED TO SET VELOCITY MEASUREMENT WINDOW ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE RIGHT SLAVE FAILED TO SET SENSOR COEFFECIENT ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <11
+> DRIVE RIGHT SLAVE FAILED TO SET SENSOR COEFFECIENT ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE RIGHT SLAVE FAILED TO SET OPEN LOOP RAMP RATE ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <11
+> DRIVE RIGHT SLAVE FAILED TO SET OPEN LOOP RAMP RATE ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE RIGHT SLAVE FAILED TO SET CLOSED LOOP RAMP RATE ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <11
+> DRIVE RIGHT SLAVE FAILED TO SET CLOSED LOOP RAMP RATE ON INIT SIGNOTUPDATED !!! E_LOG
+S_LOG !!! ERROR: <11
+> DRIVE RIGHT SLAVE FAILED TO SET OPEN LOOP RAMP RATE ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE RIGHT SLAVE FAILED TO DISABLE FWD SOFT LIMIT SIGNOTUPDATED
+S_LOG !!! ERROR: <11
+> DRIVE RIGHT SLAVE FAILED TO DISABLE FWD SOFT LIMIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE RIGHT SLAVE FAILED TO DISABLE REVERSE SOFT LIMIT SIGNOTUPDATED
+S_LOG !!! ERROR: <11
+> DRIVE RIGHT SLAVE FAILED TO DISABLE REVERSE SOFT LIMIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE RIGHT SLAVE FAILED TO SET VOLTAGE COMPENSATION SIGNOTUPDATED
+S_LOG !!! ERROR: <11
+> DRIVE RIGHT SLAVE FAILED TO SET VOLTAGE COMPENSATION SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE RIGHT SLAVE FAILED TO SET OUTPUT CURRENT LIMIT SIGNOTUPDATED
+S_LOG !!! ERROR: <12
+> DRIVE RIGHT SLAVE FAILED TO SET OUTPUT CURRENT LIMIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE RIGHT SLAVE FAILED TO SET INPUT CURRENT LIMIT SIGNOTUPDATED
+S_LOG !!! ERROR: <12
+> DRIVE RIGHT SLAVE FAILED TO SET INPUT CURRENT LIMIT SIGNOTUPDATED !!! E_LOG
+navX-Sensor SimDevice created.
+navX-Sensor Yaw Reset request ignored - startup calibration is currently in progress.
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): IS BRAKE MODE: FALSE
+navX-Sensor Connected.
+S_LOG !!! ERROR: <12
+> IS BRAKE MODE: FALSE !!! E_LOG
+navX-Sensor startup initialization and startup calibration complete.
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): navX-Sensor onboard startup calibration complete.
+navX-Sensor Yaw angle auto-reset to 0.0 due to startup calibration.
+IS BRAKE MODE: TRUE
+S_LOG !!! ERROR: <12
+> IS BRAKE MODE: TRUE !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE LEFT MASTER FAILED TO SET NEUTRAL DEADBAND ON OPENLOOP TRANSITION SIGNOTUPDATED
+S_LOG !!! ERROR: <12
+> DRIVE LEFT MASTER FAILED TO SET NEUTRAL DEADBAND ON OPENLOOP TRANSITION SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE RIGHT MASTER FAILED TO SET NEUTRAL DEADBAND ON OPENLOOP TRANSITION SIGNOTUPDATED
+S_LOG !!! ERROR: <13
+> DRIVE RIGHT MASTER FAILED TO SET NEUTRAL DEADBAND ON OPENLOOP TRANSITION SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): MASTER WINCH MOTOR FAILED TO CONFIGURE NEUTRAL DEADBAND ON INIT SIGNOTUPDATED
+!!! ERROR: MASTER WINCH MOTOR FAILED TO CONFIGURE NEUTRAL DEADBAND ON INIT SIGNOTUPDATED !!!
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): MASTER WINCH MOTOR FAILED TO SET GENERAL STATUS FRAME RATE ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <14
+> MASTER WINCH MOTOR FAILED TO SET GENERAL STATUS FRAME RATE ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): MASTER WINCH MOTOR FAILED TO SET FEEDBACK STATUS FRAME RATE ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <14
+> MASTER WINCH MOTOR FAILED TO SET FEEDBACK STATUS FRAME RATE ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): MASTER WINCH MOTOR FAILED TO SET QUAD ENCODER FRAME RATE ON INIT SIGNOTUPDATED
+!!! ERROR: MASTER WINCH MOTOR FAILED TO SET QUAD ENCODER FRAME RATE ON INIT SIGNOTUPDATED !!!
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): MASTER WINCH MOTOR FAILED TO SET FAULTS AND TEMP UPDATE RATE ON INIT SIGNOTUPDATED
+!!! ERROR: MASTER WINCH MOTOR FAILED TO SET FAULTS AND TEMP UPDATE RATE ON INIT SIGNOTUPDATED !!!
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): MASTER WINCH MOTOR FAILED TO SET PULSE WIDTH STATUS UPDATE RATE ON INIT SIGNOTUPDATED
+!!! ERROR: MASTER WINCH MOTOR FAILED TO SET PULSE WIDTH STATUS UPDATE RATE ON INIT SIGNOTUPDATED !!!
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): MASTER WINCH MOTOR FAILED TO SET OUTPUT CURRENT LIMIT ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <14
+> MASTER WINCH MOTOR FAILED TO SET OUTPUT CURRENT LIMIT ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): MASTER WINCH MOTOR FAILED TO SET INPUT CURRENT LIMIT ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <14
+> MASTER WINCH MOTOR FAILED TO SET INPUT CURRENT LIMIT ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): MASTER WINCH MOTOR FAILED TO SET VELOCITY MEAS. PERIOD ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <14
+> MASTER WINCH MOTOR FAILED TO SET VELOCITY MEAS. PERIOD ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): MASTER WINCH MOTOR FAILED TO SET VELOCITY MEASUREMENT WINDOW ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <14
+> MASTER WINCH MOTOR FAILED TO SET VELOCITY MEASUREMENT WINDOW ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): MASTER WINCH MOTOR FAILED TO SET SENSOR COEFFECIENT ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <14
+> MASTER WINCH MOTOR FAILED TO SET SENSOR COEFFECIENT ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): MASTER WINCH MOTOR FAILED TO SET OPEN LOOP 
+RAMP RATE ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <14
+> MASTER WINCH MOTOR FAILED TO SET OPEN LOOP RAMP RATE ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): MASTER WINCH MOTOR FAILED TO SET CLOSED LOOP RAMP RATE ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <14
+> MASTER WINCH MOTOR FAILED TO SET CLOSED LOOP RAMP RATE ON INIT SIGNOTUPDATED !!! E_LOG
+S_LOG !!! ERROR: <14
+> MASTER WINCH MOTOR FAILED TO SET OPEN LOOP RAMP RATE ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): MASTER WINCH MOTOR FAILED TO DISABLE FWD SOFT LIMIT SIGNOTUPDATED
+S_LOG !!! ERROR: <14
+> MASTER WINCH MOTOR FAILED TO DISABLE FWD SOFT LIMIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): MASTER WINCH MOTOR FAILED TO DISABLE REVERSE SOFT LIMIT SIGNOTUPDATED
+S_LOG !!! ERROR: <14
+> MASTER WINCH MOTOR FAILED TO DISABLE REVERSE SOFT LIMIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): MASTER WINCH MOTOR FAILED TO SET STATOR CURRENT LIMIT SIGNOTUPDATED
+S_LOG !!! ERROR: <15
+> MASTER WINCH MOTOR FAILED TO SET STATOR CURRENT LIMIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): MASTER WINCH MOTOR FAILED TO SET SUPPLY CURRENT LIMIT SIGNOTUPDATED
+S_LOG !!! ERROR: <15
+> MASTER WINCH MOTOR FAILED TO SET SUPPLY CURRENT LIMIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): MASTER WINCH MOTOR FAILED TP SET VOLTAGE COMPENSATION SIGNOTUPDATED
+S_LOG !!! ERROR: <15
+> MASTER WINCH MOTOR FAILED TP SET VOLTAGE COMPENSATION SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): SLAVE WINCH MOTOR FAILED TO CONFIGURE NEUTRAL DEADBAND ON INIT SIGNOTUPDATED
+!!! ERROR: SLAVE WINCH MOTOR FAILED TO CONFIGURE NEUTRAL DEADBAND ON INIT SIGNOTUPDATED !!!
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): SLAVE WINCH MOTOR FAILED TO SET GENERAL STATUS FRAME RATE ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <15
+> SLAVE WINCH MOTOR FAILED TO SET GENERAL STATUS FRAME RATE ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): SLAVE WINCH MOTOR FAILED TO SET FEEDBACK STATUS FRAME RATE ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <15
+> SLAVE WINCH MOTOR FAILED TO SET FEEDBACK STATUS FRAME RATE ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): SLAVE WINCH MOTOR FAILED TO SET QUAD ENCODER FRAME RATE ON INIT SIGNOTUPDATED
+!!! ERROR: SLAVE WINCH MOTOR FAILED TO SET QUAD ENCODER FRAME RATE ON INIT SIGNOTUPDATED !!!
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): SLAVE WINCH MOTOR FAILED TO SET FAULTS AND 
+TEMP UPDATE RATE ON INIT SIGNOTUPDATED
+!!! ERROR: SLAVE WINCH MOTOR FAILED TO SET FAULTS AND TEMP UPDATE RATE ON INIT SIGNOTUPDATED !!!
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): SLAVE WINCH MOTOR FAILED TO SET PULSE WIDTH STATUS UPDATE RATE ON INIT SIGNOTUPDATED
+!!! ERROR: SLAVE WINCH MOTOR FAILED TO SET PULSE WIDTH STATUS UPDATE RATE ON INIT SIGNOTUPDATED !!!
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): SLAVE WINCH MOTOR FAILED TO SET OUTPUT CURRENT LIMIT ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <16
+> SLAVE WINCH MOTOR FAILED TO SET OUTPUT CURRENT LIMIT ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): SLAVE WINCH MOTOR FAILED TO SET INPUT CURRENT LIMIT ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <16
+> SLAVE WINCH MOTOR FAILED TO SET INPUT CURRENT LIMIT ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): SLAVE WINCH MOTOR FAILED TO SET VELOCITY MEAS. PERIOD ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <16
+> SLAVE WINCH MOTOR FAILED TO SET VELOCITY MEAS. PERIOD ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): SLAVE WINCH MOTOR FAILED TO SET VELOCITY MEASUREMENT WINDOW ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <16
+> SLAVE WINCH MOTOR FAILED TO SET VELOCITY MEASUREMENT WINDOW ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): SLAVE WINCH MOTOR FAILED TO SET SENSOR COEFFECIENT ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <16
+> SLAVE WINCH MOTOR FAILED TO SET SENSOR COEFFECIENT ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): SLAVE WINCH MOTOR FAILED TO SET OPEN LOOP RAMP RATE ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <16
+> SLAVE WINCH MOTOR FAILED TO SET OPEN LOOP RAMP RATE ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): SLAVE WINCH MOTOR FAILED TO SET CLOSED LOOP RAMP RATE ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <16
+> SLAVE WINCH MOTOR FAILED TO SET CLOSED LOOP RAMP RATE ON INIT SIGNOTUPDATED !!! E_LOG
+S_LOG !!! ERROR: <16
+> SLAVE WINCH MOTOR FAILED TO SET OPEN LOOP RAMP RATE ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): SLAVE WINCH MOTOR FAILED TO DISABLE FWD SOFT LIMIT SIGNOTUPDATED
+S_LOG !!! ERROR: <16
+> SLAVE WINCH MOTOR FAILED TO DISABLE FWD SOFT LIMIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): SLAVE WINCH MOTOR FAILED TO DISABLE REVERSE SOFT LIMIT SIGNOTUPDATED
+S_LOG !!! ERROR: <16
+> SLAVE WINCH MOTOR FAILED TO DISABLE REVERSE SOFT LIMIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): SLAVE WINCH MOTOR FAILED TO SET STATOR CURRENT LIMIT SIGNOTUPDATED
+S_LOG !!! ERROR: <16
+> SLAVE WINCH MOTOR FAILED TO SET STATOR CURRENT LIMIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): SLAVE WINCH MOTOR FAILED TO SET SUPPLY CURRENT LIMIT SIGNOTUPDATED
+S_LOG !!! ERROR: <17
+> SLAVE WINCH MOTOR FAILED TO SET SUPPLY CURRENT LIMIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): SLAVE WINCH MOTOR FAILED TP SET VOLTAGE COMPENSATION SIGNOTUPDATED
+S_LOG !!! ERROR: <17
+> SLAVE WINCH MOTOR FAILED TP SET VOLTAGE COMPENSATION SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): LEFT SHOOTER MOTOR FAILED TO CONFIGURE NEUTRAL DEADBAND ON INIT SIGNOTUPDATED
+!!! ERROR: LEFT SHOOTER MOTOR FAILED TO CONFIGURE NEUTRAL DEADBAND ON INIT SIGNOTUPDATED !!!
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): LEFT SHOOTER MOTOR FAILED TO SET GENERAL STATUS FRAME RATE ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <17
+> LEFT SHOOTER MOTOR FAILED TO SET GENERAL STATUS FRAME RATE ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): LEFT SHOOTER MOTOR FAILED TO SET FEEDBACK STATUS FRAME RATE ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <17
+> LEFT SHOOTER MOTOR FAILED TO SET FEEDBACK STATUS FRAME RATE ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): LEFT SHOOTER MOTOR FAILED TO SET QUAD ENCODER FRAME RATE ON INIT SIGNOTUPDATED
+!!! ERROR: LEFT SHOOTER MOTOR FAILED TO SET QUAD ENCODER FRAME RATE ON INIT SIGNOTUPDATED !!!
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): LEFT SHOOTER MOTOR FAILED TO SET FAULTS AND TEMP UPDATE RATE ON INIT SIGNOTUPDATED
+!!! ERROR: LEFT SHOOTER MOTOR FAILED TO SET FAULTS AND TEMP UPDATE RATE ON INIT SIGNOTUPDATED !!!
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): LEFT SHOOTER MOTOR FAILED TO SET PULSE WIDTH STATUS UPDATE RATE ON INIT SIGNOTUPDATED
+!!! ERROR: LEFT SHOOTER MOTOR FAILED TO SET PULSE WIDTH STATUS UPDATE RATE ON INIT SIGNOTUPDATED !!!
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): LEFT SHOOTER MOTOR FAILED TO SET OUTPUT CURRENT LIMIT ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <17
+> LEFT SHOOTER MOTOR FAILED TO SET OUTPUT CURRENT LIMIT ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): LEFT SHOOTER MOTOR FAILED TO SET INPUT CURRENT LIMIT ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <18
+> LEFT SHOOTER MOTOR FAILED TO SET INPUT CURRENT LIMIT ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): LEFT SHOOTER MOTOR FAILED TO SET VELOCITY MEAS. PERIOD ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <18
+> LEFT SHOOTER MOTOR FAILED TO SET VELOCITY MEAS. PERIOD ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): LEFT SHOOTER MOTOR FAILED TO SET VELOCITY MEASUREMENT WINDOW ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <18
+> LEFT SHOOTER MOTOR FAILED TO SET VELOCITY MEASUREMENT WINDOW ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): LEFT SHOOTER MOTOR FAILED TO SET SENSOR COEFFECIENT ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <18
+> LEFT SHOOTER MOTOR FAILED TO SET SENSOR COEFFECIENT ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): LEFT SHOOTER MOTOR FAILED TO SET OPEN LOOP 
+RAMP RATE ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <18
+> LEFT SHOOTER MOTOR FAILED TO SET OPEN LOOP RAMP RATE ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): LEFT SHOOTER MOTOR FAILED TO SET CLOSED LOOP RAMP RATE ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <18
+> LEFT SHOOTER MOTOR FAILED TO SET CLOSED LOOP RAMP RATE ON INIT SIGNOTUPDATED !!! E_LOG
+S_LOG !!! ERROR: <18
+> LEFT SHOOTER MOTOR FAILED TO SET OPEN LOOP RAMP RATE ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): LEFT SHOOTER MOTOR FAILED TO DISABLE FWD SOFT LIMIT SIGNOTUPDATED
+S_LOG !!! ERROR: <18
+> LEFT SHOOTER MOTOR FAILED TO DISABLE FWD SOFT LIMIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): LEFT SHOOTER MOTOR FAILED TO DISABLE REVERSE SOFT LIMIT SIGNOTUPDATED
+S_LOG !!! ERROR: <18
+> LEFT SHOOTER MOTOR FAILED TO DISABLE REVERSE SOFT LIMIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): LEFT SHOOTER MOTOR FAILED TO SET VOLTAGE COMPENSATION SIGNOTUPDATED
+!!! ERROR: LEFT SHOOTER MOTOR FAILED TO SET VOLTAGE COMPENSATION SIGNOTUPDATED !!!
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): LEFT SHOOTER MOTOR FAILED TO SET OUTPUT CURRENT LIMIT SIGNOTUPDATED
+!!! ERROR: LEFT SHOOTER MOTOR FAILED TO SET OUTPUT CURRENT LIMIT SIGNOTUPDATED !!!
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): LEFT SHOOTER MOTOR FAILED TO SET INPUT CURRENT LIMIT SIGNOTUPDATED
+!!! ERROR: LEFT SHOOTER MOTOR FAILED TO SET INPUT CURRENT LIMIT SIGNOTUPDATED !!!
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): LEFT SHOOTER MOTOR FAILED TO SET FEEDBACK SENSOR SIGNOTUPDATED
+S_LOG !!! ERROR: <18
+> LEFT SHOOTER MOTOR FAILED TO SET FEEDBACK SENSOR SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): LEFT SHOOTER MOTOR FAILED TO SET VELOCITY MEAS. PERIOD SIGNOTUPDATED
+S_LOG !!! ERROR: <18
+> LEFT SHOOTER MOTOR FAILED TO SET VELOCITY MEAS. PERIOD SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): LEFT SHOOTER MOTOR FAILED TO SET VELOCITY MEAS. WINDOW SIGNOTUPDATED
+S_LOG !!! ERROR: <18
+> LEFT SHOOTER MOTOR FAILED TO SET VELOCITY MEAS. WINDOW SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): LEFT SHOOTER MOTOR FAILED TO SET OPEN LOOP 
+RAMP RATE SIGNOTUPDATED
+S_LOG !!! ERROR: <18
+> LEFT SHOOTER MOTOR FAILED TO SET OPEN LOOP RAMP RATE SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): LEFT SHOOTER MOTOR FAILED TO SET CLOSED LOOP RAMP RATE SIGNOTUPDATED
+S_LOG !!! ERROR: <18
+> LEFT SHOOTER MOTOR FAILED TO SET CLOSED LOOP RAMP RATE SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): LEFT SHOOTER MOTOR FAILED TO SET NEUTRAL DEADBAND SIGNOTUPDATED
+S_LOG !!! ERROR: <18
+> LEFT SHOOTER MOTOR FAILED TO SET NEUTRAL DEADBAND SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): RIGHT SHOOTER MOTOR FAILED TO CONFIGURE NEUTRAL DEADBAND ON INIT SIGNOTUPDATED
+!!! ERROR: RIGHT SHOOTER MOTOR FAILED TO CONFIGURE NEUTRAL DEADBAND ON INIT SIGNOTUPDATED !!!
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): RIGHT SHOOTER MOTOR FAILED TO SET GENERAL STATUS FRAME RATE ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <18
+> RIGHT SHOOTER MOTOR FAILED TO SET GENERAL STATUS FRAME RATE ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): RIGHT SHOOTER MOTOR FAILED TO SET FEEDBACK 
+STATUS FRAME RATE ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <18
+> RIGHT SHOOTER MOTOR FAILED TO SET FEEDBACK STATUS FRAME RATE ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): RIGHT SHOOTER MOTOR FAILED TO SET QUAD ENCODER FRAME RATE ON INIT SIGNOTUPDATED
+!!! ERROR: RIGHT SHOOTER MOTOR FAILED TO SET QUAD ENCODER FRAME RATE ON INIT SIGNOTUPDATED !!!
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): RIGHT SHOOTER MOTOR FAILED TO SET FAULTS AND TEMP UPDATE RATE ON INIT SIGNOTUPDATED
+!!! ERROR: RIGHT SHOOTER MOTOR FAILED TO SET FAULTS AND TEMP UPDATE RATE ON INIT SIGNOTUPDATED !!!
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): RIGHT SHOOTER MOTOR FAILED TO SET PULSE WIDTH STATUS UPDATE RATE ON INIT SIGNOTUPDATED
+!!! ERROR: RIGHT SHOOTER MOTOR FAILED TO SET PULSE WIDTH STATUS UPDATE RATE ON INIT SIGNOTUPDATED !!!        
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): RIGHT SHOOTER MOTOR FAILED TO SET OUTPUT CURRENT LIMIT ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <19
+> RIGHT SHOOTER MOTOR FAILED TO SET OUTPUT CURRENT LIMIT ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): RIGHT SHOOTER MOTOR FAILED TO SET INPUT CURRENT LIMIT ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <19
+> RIGHT SHOOTER MOTOR FAILED TO SET INPUT CURRENT LIMIT ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): RIGHT SHOOTER MOTOR FAILED TO SET VELOCITY 
+MEAS. PERIOD ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <19
+> RIGHT SHOOTER MOTOR FAILED TO SET VELOCITY MEAS. PERIOD ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): RIGHT SHOOTER MOTOR FAILED TO SET VELOCITY 
+MEASUREMENT WINDOW ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <19
+> RIGHT SHOOTER MOTOR FAILED TO SET VELOCITY MEASUREMENT WINDOW ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): RIGHT SHOOTER MOTOR FAILED TO SET SENSOR COEFFECIENT ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <19
+> RIGHT SHOOTER MOTOR FAILED TO SET SENSOR COEFFECIENT ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): RIGHT SHOOTER MOTOR FAILED TO SET OPEN LOOP RAMP RATE ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <19
+> RIGHT SHOOTER MOTOR FAILED TO SET OPEN LOOP RAMP RATE ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): RIGHT SHOOTER MOTOR FAILED TO SET CLOSED LOOP RAMP RATE ON INIT SIGNOTUPDATED
+S_LOG !!! ERROR: <19
+> RIGHT SHOOTER MOTOR FAILED TO SET CLOSED LOOP RAMP RATE ON INIT SIGNOTUPDATED !!! E_LOG
+S_LOG !!! ERROR: <19
+> RIGHT SHOOTER MOTOR FAILED TO SET OPEN LOOP RAMP RATE ON INIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): RIGHT SHOOTER MOTOR FAILED TO DISABLE FWD SOFT LIMIT SIGNOTUPDATED
+S_LOG !!! ERROR: <19
+> RIGHT SHOOTER MOTOR FAILED TO DISABLE FWD SOFT LIMIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): RIGHT SHOOTER MOTOR FAILED TO DISABLE REVERSE SOFT LIMIT SIGNOTUPDATED
+S_LOG !!! ERROR: <19
+> RIGHT SHOOTER MOTOR FAILED TO DISABLE REVERSE SOFT LIMIT SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): RIGHT SHOOTER MOTOR FAILED TO SET VOLTAGE COMPENSATION SIGNOTUPDATED
+!!! ERROR: RIGHT SHOOTER MOTOR FAILED TO SET VOLTAGE COMPENSATION SIGNOTUPDATED !!!
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): RIGHT SHOOTER MOTOR FAILED TO SET OUTPUT CURRENT LIMIT SIGNOTUPDATED
+!!! ERROR: RIGHT SHOOTER MOTOR FAILED TO SET OUTPUT CURRENT LIMIT SIGNOTUPDATED !!!
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): RIGHT SHOOTER MOTOR FAILED TO SET INPUT CURRENT LIMIT SIGNOTUPDATED
+!!! ERROR: RIGHT SHOOTER MOTOR FAILED TO SET INPUT CURRENT LIMIT SIGNOTUPDATED !!!
+java.io.FileNotFoundException: \home\lvuser\crash_tracking.txt (The system cannot find the path specified)
+        at java.base/java.io.FileOutputStream.open0(Native Method)
+        at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+        at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+        at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:158)
+        at java.base/java.io.FileWriter.<init>(FileWriter.java:82)
+        at frc.lib.util.CrashTracker.logMarker(CrashTracker.java:50)
+        at frc.lib.util.CrashTracker.logMarker(CrashTracker.java:45)
+        at frc.lib.util.CrashTracker.logRobotConstruction(CrashTracker.java:17)
+        at frc.robot.Robot.<init>(Robot.java:86)
+        at edu.wpi.first.wpilibj.RobotBase.runRobot(RobotBase.java:289)
+        at edu.wpi.first.wpilibj.RobotBase.lambda$startRobot$0(RobotBase.java:387)
+        at java.base/java.lang.Thread.run(Thread.java:834)
+java.io.FileNotFoundException: \home\lvuser\crash_tracking.txt (The system cannot find the path specified)   
+        at java.base/java.io.FileOutputStream.open0(Native Method)
+        at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+        at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+        at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:158)
+        at java.base/java.io.FileWriter.<init>(FileWriter.java:82)
+        at frc.lib.util.CrashTracker.logMarker(CrashTracker.java:50)
+        at frc.lib.util.CrashTracker.logMarker(CrashTracker.java:45)
+        at frc.lib.util.CrashTracker.logRobotInit(CrashTracker.java:21)
+        at frc.robot.Robot.robotInit(Robot.java:93)
+        at edu.wpi.first.wpilibj.TimedRobot.startCompetition(TimedRobot.java:94)
+        at edu.wpi.first.wpilibj.RobotBase.runRobot(RobotBase.java:335)
+        at edu.wpi.first.wpilibj.RobotBase.lambda$startRobot$0(RobotBase.java:387)
+        at java.base/java.lang.Thread.run(Thread.java:834)
+navX-Sensor Software Yaw Reset completed.
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE LEFT MASTER FAILED TO RESET ENCODER SIGNOTUPDATED
+S_LOG !!! ERROR: <21
+> DRIVE LEFT MASTER FAILED TO RESET ENCODER SIGNOTUPDATED !!! E_LOG
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): DRIVE RIGHT MASTER FAILED TO RESET ENCODER 
+SIGNOTUPDATED
+S_LOG !!! ERROR: <21
+> DRIVE RIGHT MASTER FAILED TO RESET ENCODER SIGNOTUPDATED !!! E_LOG
+Generating trajectories...
+Finished trajectory generation in: 0.16228500000000068 seconds
+Auto selection changed, updating creator: desiredMode->TRENCH_RUN, starting position->TARGET_SIDE
+Default simulationInit() method... Override me!
+java.io.FileNotFoundException: \home\lvuser\crash_tracking.txt (The system cannot find the path specified)   
+        at java.base/java.io.FileOutputStream.open0(Native Method)
+        at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+        at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+        at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:158)
+        at java.base/java.io.FileWriter.<init>(FileWriter.java:82)
+        at frc.lib.util.CrashTracker.logMarker(CrashTracker.java:50)
+        at frc.lib.util.CrashTracker.logMarker(CrashTracker.java:45)
+        at frc.lib.util.CrashTracker.logDisabledInit(CrashTracker.java:33)
+        at frc.robot.Robot.disabledInit(Robot.java:137)
+        at edu.wpi.first.wpilibj.IterativeRobotBase.loopFunc(IterativeRobotBase.java:218)
+        at edu.wpi.first.wpilibj.TimedRobot.startCompetition(TimedRobot.java:117)
+        at edu.wpi.first.wpilibj.RobotBase.runRobot(RobotBase.java:335)
+Warning at edu.wpi.first.wpilibj.IterativeRobotBase.printLoopOverrunMessage(IterativeRobotBase.java:301):   at edu.wpi.first.wpilibj.RobotBase.lambda$startRobot$0(RobotBase.java:387)
+        at java.base/java.lang.Thread.run(Thread.java:834)Loop time of 0.02s overrun
+
+
+Auto selection changed, updating creator: desiredMode->TRENCH_RUN, starting position->TARGET_SIDE
+Starting loops
+Error at frc.lib.util.TelemetryUtil.print(TelemetryUtil.java:49): IS BRAKE MODE: FALSE
+S_LOG !!! ERROR: <21
+> IS BRAKE MODE: FALSE !!! E_LOG
+Set auto mode to: class frc.robot.auto.modes.TrenchRun
+Printing out field values
+Printing out Buttons
+Printing out field values
+Printing out Buttons
+Printing out field values
+Printing out Buttons
+Printing out field values
+Printing out Buttons
+Printing out field values
+Printing out Buttons
+Printing out field values
+java.io.FileNotFoundException: \home\lvuser\crash_tracking.txt (The system cannot find the path specified)
+        at java.base/java.io.FileOutputStream.open0(Native Method)
+        at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+        at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+        at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:158)
+        at java.base/java.io.FileWriter.<init>(FileWriter.java:82)
+        at frc.lib.util.CrashTracker.logMarker(CrashTracker.java:50)
+        at frc.lib.util.CrashTracker.logThrowableCrash(CrashTracker.java:41)
+        at frc.robot.Robot.robotPeriodic(Robot.java:128)
+        at edu.wpi.first.wpilibj.IterativeRobotBase.loopFunc(IterativeRobotBase.java:270)
+        at edu.wpi.first.wpilibj.TimedRobot.startCompetition(TimedRobot.java:117)
+        at edu.wpi.first.wpilibj.RobotBase.runRobot(RobotBase.java:335)
+        at edu.wpi.first.wpilibj.RobotBase.lambda$startRobot$0(RobotBase.java:387)
+        at java.base/java.lang.Thread.run(Thread.java:834)
+Error at frc.robot.subsystems.Dashboard.parse(Dashboard.java:27): Unhandled exception: java.lang.IllegalArgumentException: Cannot add data of type com.ctre.phoenix.ErrorCode to Shuffleboard
+        at edu.wpi.first.wpilibj.shuffleboard.ContainerHelper.checkNtType(ContainerHelper.java:133)
+        at edu.wpi.first.wpilibj.shuffleboard.ContainerHelper.add(ContainerHelper.java:74)
+        at edu.wpi.first.wpilibj.shuffleboard.ShuffleboardTab.add(ShuffleboardTab.java:67)
+        at frc.robot.subsystems.Dashboard.parse(Dashboard.java:27)
+        at frc.robot.subsystems.Subsystem.outputTelemetry(Subsystem.java:46)
+        at java.base/java.util.Arrays$ArrayList.forEach(Arrays.java:4390)
+        at frc.robot.subsystems.SubsystemManager.outputToSmartDashboard(SubsystemManager.java:36)
+        at frc.robot.Robot.robotPeriodic(Robot.java:126)
+        at edu.wpi.first.wpilibj.IterativeRobotBase.loopFunc(IterativeRobotBase.java:270)
+        at edu.wpi.first.wpilibj.TimedRobot.startCompetition(TimedRobot.java:117)
+        at edu.wpi.first.wpilibj.RobotBase.runRobot(RobotBase.java:335)
+        at edu.wpi.first.wpilibj.RobotBase.lambda$startRobot$0(RobotBase.java:387)
+        at java.base/java.lang.Thread.run(Thread.java:834)
+
+Warning at edu.wpi.first.wpilibj.RobotBase.runRobot(RobotBase.java:350): Robots should not quit, but yours did!
+Error at edu.wpi.first.wpilibj.RobotBase.runRobot(RobotBase.java:352): The startCompetition() method (or methods called by it) should have handled the exception above.
+PS C:\Users\Spencer.NIKE-PC\Documents\Spartabots\FRC-2021>
