@@ -27,6 +27,8 @@ public abstract class Subsystem {
 
     public void readPeriodicInputs() {}
 
+    public abstract String getName();
+
     public void writePeriodicOutputs() {}
 
     public void registerEnabledLoops(ILooper mEnabledLooper) {}
@@ -38,11 +40,11 @@ public abstract class Subsystem {
     public abstract boolean checkSystem();
 
     // where subsystems update telemetry, gets updated in outputTelemetry
-    public abstract String updateTelemetry();
+    public abstract void updateTelemetry();
 
     public final void outputTelemetry() {
-        String SubsystemName = updateTelemetry();
-        Dashboard.parse(outputTelemetry, buttons, SubsystemName);
+        updateTelemetry();
+        Dashboard.parse(outputTelemetry, buttons, getName());
     }
 
     // add buttons here

@@ -147,9 +147,13 @@ public class Limelight extends Subsystem {
     }
 
     @Override
-    public String updateTelemetry() {
+    public void updateTelemetry() {
         outputTelemetry.put("Has Target: ", mSeesTarget);
         outputTelemetry.put("Is Close Shoot?", isCloseDistance());
+    }
+
+    @Override
+    public String getName() {
         return "Limelight";
     }
 

@@ -218,7 +218,7 @@ public class Intake extends Subsystem {
     }
 
     @Override
-    public String updateTelemetry() {
+    public void updateTelemetry() {
         outputTelemetry.put("Intake State", mCurrentState.toString());
 
         outputTelemetry.put("Intake Solenoid", mLeftIntakeSolenoid.get());
@@ -230,6 +230,10 @@ public class Intake extends Subsystem {
         outputTelemetry.put("Outer Intake Supply Current", mOuterIntakeMotor.getSupplyCurrent());
         outputTelemetry.put("Outer Intake Stator Current", mOuterIntakeMotor.getStatorCurrent());
         outputTelemetry.put("Outer Intake Output", mOuterIntakeMotor.getLastSet());
+    }
+
+    @Override
+    public String getName() {
         return "Intake";
     }
 

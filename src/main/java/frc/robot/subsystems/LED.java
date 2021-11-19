@@ -140,10 +140,13 @@ public class LED extends Subsystem {
     }
 
     @Override
-    public String updateTelemetry() {
+    public void updateTelemetry() {
         this.outputTelemetry.put("Current RGB Values", mDesiredLEDState.red + ", " + mDesiredLEDState.green + ", "
                 + mDesiredLEDState.blue);
+    }
 
+    @Override
+    public String getName() {
         return "LED";
     }
 

@@ -145,7 +145,11 @@ public class Superstructure extends Subsystem {
         setQueuedRequests(lists);
     }
 
-     
+
+    @Override
+    public String getName() {
+        return "Superstructure";
+    }
 
     @Override
     public void registerEnabledLoops(ILooper mEnabledLooper) {
@@ -357,9 +361,8 @@ public class Superstructure extends Subsystem {
     }
 
     @Override
-    public String updateTelemetry() {
+    public void updateTelemetry() {
         // do not update anything for superstructure
-        return null;
     }
 
 

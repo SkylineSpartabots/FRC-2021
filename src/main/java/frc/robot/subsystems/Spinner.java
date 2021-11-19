@@ -97,6 +97,11 @@ public class Spinner extends Subsystem {
 
 
     @Override
+    public String getName() {
+        return "Spinner";
+    }
+
+    @Override
     public void registerEnabledLoops(ILooper mEnabledLooper) {
         mEnabledLooper.register(new Loop() {
 
@@ -343,9 +348,8 @@ public class Spinner extends Subsystem {
     }
 
     @Override
-    public String updateTelemetry() {
+    public void updateTelemetry() {
         outputTelemetry.put("Random Number", 3);
-        return "Spinner";
     }
 
     @Override
