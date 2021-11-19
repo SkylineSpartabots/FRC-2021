@@ -139,15 +139,13 @@ public class LED extends Subsystem {
         return false;
     }
 
-    String a = "test";
     @Override
     public void updateTelemetry() {
-        outputTelemetry.put("Random Value", a);
-        // this.outputTelemetry.put("Current RGB Values", mDesiredLEDState.red + ", " + mDesiredLEDState.green + ", "
-        //         + mDesiredLEDState.blue);
-        // outputTelemetry.put("Current R Value", mDesiredLEDState.red);
-        // outputTelemetry.put("Current G Value", mDesiredLEDState.green);
-        // outputTelemetry.put("Current B Value", mDesiredLEDState.blue);
+        this.outputTelemetry.put("Current RGB Values", mDesiredLEDState.red + ", " + mDesiredLEDState.green + ", "
+                + mDesiredLEDState.blue);
+        outputTelemetry.put("Current R Value", mDesiredLEDState.red);
+        outputTelemetry.put("Current G Value", mDesiredLEDState.green);
+        outputTelemetry.put("Current B Value", mDesiredLEDState.blue);
     }
 
     @Override
