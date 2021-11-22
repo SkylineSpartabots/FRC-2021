@@ -22,11 +22,15 @@ public class Dashboard {
      */
     public static void parse(HashMap<String, Object> fields, HashMap<String, Button> button, String subsystemName) {
         //BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        try {    
             System.out.println("Printing out field values");
-            for(String a : fields.keySet()){
-                Shuffleboard.getTab(subsystemName).add(a, fields.get(a));
-            }
-            System.out.println("Printing out Buttons");
+                for(String a : fields.keySet()){
+                    Shuffleboard.getTab(subsystemName).add(a, fields.get(a));
+                }
+                System.out.println("Printing out Buttons");
+        } catch (Exception E){
+            System.out.println(E);
+        }
             /*
             button.forEach((s, o) -> {
                 NetworkTableEntry entry = Shuffleboard.getTab(subsystemName)
