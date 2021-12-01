@@ -1,4 +1,6 @@
 # **Installation Steps**
+0. Install JDK 11: https://adoptium.net/?variant=openjdk11
+   If you are on Windows, you will need to change your environment variables to access JDK 11 from the command line. See this link for instructions on how to do this: https://adoptium.net/installation.html?variant=openjdk11#x64_win-jdk
 1. Install VSCode: https://code.visualstudio.com/download
 2. Install git: https://git-scm.com/downloads
 3. Install the WPILIB pluggin in vscode (a red and black "W" button should show up that the top-right corner, might have to restart)
